@@ -36,6 +36,11 @@ public class Situation_Ques extends AppCompatActivity {
             }
         });
     }
+    
+    @Override
+    public void onBackPressed(){
+        Toast.makeText(this,"Sorry Not Possible!",Toast.LENGTH_SHORT).show();
+    }
 
     public void on_click_radio(View view) {
         boolean checked = ((RadioButton) view).isChecked();
