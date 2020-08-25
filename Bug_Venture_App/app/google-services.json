@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "139928817710",
+    "firebase_url": "https://bug-venture-app.firebaseio.com",
+    "project_id": "bug-venture-app",
+    "storage_bucket": "bug-venture-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139928817710:android:09ad3eb9cb1d5b1479cfbf",
+        "android_client_info": {
+          "package_name": "com.example.bug_venture_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139928817710-5frs848tc8esouas2qq9l5ptbepbfghf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA83VOGjxKMCLNtD1sWbCViozlESXd2-tQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139928817710-5frs848tc8esouas2qq9l5ptbepbfghf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

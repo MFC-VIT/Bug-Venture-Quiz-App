@@ -3,14 +3,20 @@ package com.example.bug_venture_app;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class Debug_question extends AppCompatActivity {
 
     Button next;
     TextView textView2;
+    RadioButton rd1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +24,8 @@ public class Debug_question extends AppCompatActivity {
         setContentView(R.layout.activity_debug_question);
 
         next = (Button) findViewById(R.id.button6);
-        textView2 = (TextView) findViewById(R.id.textView2);
+        textView2 = (TextView) findViewById(R.id.time_deb);
+        rd1 = (RadioButton) findViewById(R.id.radioButton5);
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,8 +54,8 @@ public class Debug_question extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-                // Also in place of rsAmount.getText.toString() => Change it according to the aswer given or not also if given what was given
-                if(rsAmount.getText().toString().equals("") || rsAmount.getText().toString().equals("0")){ // BY this if the user has given the wrong answer or not given any answer then he will be out
+                // Also in place of rsAmount.getText.toString() => Change it according to the answer given or not also if given what was given
+                if(rd1.getText().toString().equals("") || rd1.getText().toString().equals("0")){ // BY this if the user has given the wrong answer or not given any answer then he will be out
                     Intent intent = new Intent(getApplicationContext(),Main2Activity.class); // Here change the activity name for the newQuestion 
                     intent.putExtra("name","Your BugVenture Ends Here.");
                     startActivity(intent);

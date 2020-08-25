@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">139928817710-5frs848tc8esouas2qq9l5ptbepbfghf.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://bug-venture-app.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">139928817710</string>
+    <string name="google_api_key" translatable="false">AIzaSyA83VOGjxKMCLNtD1sWbCViozlESXd2-tQ</string>
+    <string name="google_app_id" translatable="false">1:139928817710:android:09ad3eb9cb1d5b1479cfbf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA83VOGjxKMCLNtD1sWbCViozlESXd2-tQ</string>
+    <string name="google_storage_bucket" translatable="false">bug-venture-app.appspot.com</string>
+    <string name="project_id" translatable="false">bug-venture-app</string>
+</resources>
