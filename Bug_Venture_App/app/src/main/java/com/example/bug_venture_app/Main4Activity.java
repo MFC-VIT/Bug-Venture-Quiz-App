@@ -35,7 +35,7 @@ public class Main4Activity extends AppCompatActivity {
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Main4Activity.this, Situation_Ques.class);
+                Intent intent = new Intent(Main4Activity.this, Debug_question.class);
                 startActivity(intent);
             }
         });

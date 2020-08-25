@@ -3,6 +3,7 @@ package com.example.bug_venture_app;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -16,7 +17,8 @@ public class Debug_question extends AppCompatActivity {
 
     Button next;
     TextView textView2;
-    RadioButton rd1;
+    RadioButton rd5, rd6, rd7, rd8;
+    String temp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +27,12 @@ public class Debug_question extends AppCompatActivity {
 
         next = (Button) findViewById(R.id.button6);
         textView2 = (TextView) findViewById(R.id.time_deb);
-        rd1 = (RadioButton) findViewById(R.id.radioButton5);
+        rd5 = (RadioButton) findViewById(R.id.radioButton5);
+        rd6 = (RadioButton) findViewById(R.id.radioButton6);
+        rd7 = (RadioButton) findViewById(R.id.radioButton7);
+        rd8 = (RadioButton) findViewById(R.id.radioButton8);
+
+        temp = "";
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,8 +62,8 @@ public class Debug_question extends AppCompatActivity {
             @Override
             public void onFinish() {
                 // Also in place of rsAmount.getText.toString() => Change it according to the answer given or not also if given what was given
-                if(rd1.getText().toString().equals("") || rd1.getText().toString().equals("0")){ // BY this if the user has given the wrong answer or not given any answer then he will be out
-                    Intent intent = new Intent(getApplicationContext(),Main2Activity.class); // Here change the activity name for the newQuestion 
+                if(temp.equals("") || rd5.getText().toString().equals("0")){ // BY this if the user has given the wrong answer or not given any answer then he will be out
+                    Intent intent = new Intent(Debug_question.this, Time_up.class); // Here change the activity name for the newQuestion
                     intent.putExtra("name","Your BugVenture Ends Here.");
                     startActivity(intent);
                 }
@@ -69,5 +76,28 @@ public class Debug_question extends AppCompatActivity {
     @Override
     public void onBackPressed(){
         Toast.makeText(this,"Sorry Not Possible!",Toast.LENGTH_SHORT).show();
+    }
+
+    public void on_click(View view) {
+        boolean checked = ((RadioButton) view).isChecked();
+        switch (view.getId()){
+            case R.id.radioButton5:
+                if(checked)
+                    rd5.setTextColor(Color.GREEN);
+                break;
+            case R.id.radioButton6:
+                if(checked)
+                    rd6.setTextColor(Color.GREEN);
+                break;
+            case R.id.radioButton7:
+                if(checked)
+                    rd7.setTextColor(Color.GREEN);
+                break;
+            case R.id.radioButton8:
+                if(checked)
+                    rd8.setTextColor(Color.GREEN);
+                break;
+        }
+
     }
 }

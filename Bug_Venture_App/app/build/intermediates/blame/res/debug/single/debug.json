@@ -8,6 +8,10 @@
         "source": "/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_time_up.xml.flat",
+        "source": "/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/res/layout/activity_time_up.xml"
+    },
+    {
         "merged": "/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },

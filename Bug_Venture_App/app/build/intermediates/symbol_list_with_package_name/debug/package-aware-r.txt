@@ -793,6 +793,7 @@ id button3
 id button4
 id button5
 id button6
+id button7
 id buttonPanel
 id center_vertical
 id chains
@@ -859,8 +860,6 @@ id progress_horizontal
 id radio
 id radioButton
 id radioButton2
-id radioButton3
-id radioButton4
 id radioButton5
 id radioButton6
 id radioButton7
@@ -919,6 +918,7 @@ id textView4
 id textView5
 id textView6
 id textView7
+id textView8
 id time
 id time_deb
 id time_sit
@@ -982,6 +982,7 @@ layout activity_main2
 layout activity_main3
 layout activity_main4
 layout activity_situation__ques
+layout activity_time_up
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
@@ -1042,8 +1043,8 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string debug_ques
 string default_web_client_id
-string display_ques
 string email
 string firebase_database_url
 string game_start
@@ -1067,8 +1068,10 @@ string project_id
 string search_menu_title
 string sign_up
 string sign_up_button
+string situation_ques
 string status_bar_notification_info_overflow
 string submit_button
+string time_up
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

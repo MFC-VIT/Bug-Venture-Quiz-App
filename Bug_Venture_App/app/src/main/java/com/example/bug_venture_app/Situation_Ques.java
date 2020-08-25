@@ -26,8 +26,6 @@ public class Situation_Ques extends AppCompatActivity {
 
         rd1 = (RadioButton) findViewById(R.id.radioButton);
         rd2 = (RadioButton) findViewById(R.id.radioButton2);
-        rd3 = (RadioButton) findViewById(R.id.radioButton3);
-        rd4 = (RadioButton) findViewById(R.id.radioButton4);
 
         submit = (Button) findViewById(R.id.button5);
         textView2 = (TextView) findViewById(R.id.time_sit);
@@ -87,13 +85,6 @@ public class Situation_Ques extends AppCompatActivity {
             case R.id.radioButton2:
                 if(checked)
                     rd2.setTextColor(Color.GREEN);
-                break;
-            case R.id.radioButton3:
-                if(checked)
-                    rd3.setTextColor(Color.GREEN);
-            case R.id.radioButton4:
-                if(checked)
-                    rd4.setTextColor(Color.GREEN);
                 break;
         }
     }

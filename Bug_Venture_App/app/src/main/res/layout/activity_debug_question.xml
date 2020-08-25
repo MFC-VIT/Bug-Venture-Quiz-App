@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Situation_Ques">
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView7"
@@ -12,7 +11,7 @@
         android:layout_height="97dp"
         android:layout_marginTop="53dp"
         android:layout_marginEnd="73dp"
-        android:text="@string/display_ques"
+        android:text="@string/debug_ques"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,28 +28,28 @@
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="49dp"
-            android:onClick="on_click_radio"
+            android:onClick="on_click"
             android:text="@string/option_1" />
 
         <RadioButton
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:onClick="on_click_radio"
+            android:onClick="on_click"
             android:text="@string/option_2" />
 
         <RadioButton
             android:id="@+id/radioButton7"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:onClick="on_click_radio"
+            android:onClick="on_click"
             android:text="@string/option_3" />
 
         <RadioButton
             android:id="@+id/radioButton8"
             android:layout_width="match_parent"
             android:layout_height="54dp"
-            android:onClick="on_click_radio"
+            android:onClick="on_click"
             android:text="@string/option_4" />
     </RadioGroup>
 

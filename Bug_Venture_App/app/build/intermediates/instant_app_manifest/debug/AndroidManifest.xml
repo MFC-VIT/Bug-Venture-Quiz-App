@@ -25,6 +25,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.bug_venture_app.Time_up" />
         <activity android:name="com.example.bug_venture_app.Debug_question" />
         <activity android:name="com.example.bug_venture_app.Situation_Ques" />
         <activity android:name="com.example.bug_venture_app.Main4Activity" />

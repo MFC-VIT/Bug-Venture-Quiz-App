@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Bug_Venture_App</string>
-	<string name="main_page">This is the main page</string>
-    <string name="button1">Go to the sign up page</string>
+    <string name="main_page">This is the main page</string>
+    <string name="button1">Go to the login page</string>
     <string name="login">This is the login page</string>
     <string name="email">E - Mail</string>
     <string name="password">Password</string>
@@ -12,10 +12,13 @@
     <string name="logout">LOG OUT</string>
     <string name="game_start">Let\'s start the game</string>
     <string name="play_button">Play</string>
-    <string name="display_ques">The question will be displayed here</string>
+    <string name="debug_ques">The debug question will be displayed here</string>
     <string name="option_1">OPTION 1</string>
     <string name="option_2">OPTION 2</string>
     <string name="option_3">OPTION 3</string>
     <string name="option_4">OPTION 4</string>
     <string name="submit_button">SUBMIT</string>
+    <string name="situation_ques">The situational question will be displayed here.</string>
+    <string name="time_up">The time is up!</string>
+
 </resources>

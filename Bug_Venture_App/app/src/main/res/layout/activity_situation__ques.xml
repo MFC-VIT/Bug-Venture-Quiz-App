@@ -12,7 +12,7 @@
         android:layout_height="97dp"
         android:layout_marginTop="53dp"
         android:layout_marginEnd="73dp"
-        android:text="@string/display_ques"
+        android:text="@string/situation_ques"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,19 +39,6 @@
             android:onClick="on_click_radio"
             android:text="@string/option_2" />
 
-        <RadioButton
-            android:id="@+id/radioButton3"
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:onClick="on_click_radio"
-            android:text="@string/option_3" />
-
-        <RadioButton
-            android:id="@+id/radioButton4"
-            android:layout_width="match_parent"
-            android:layout_height="54dp"
-            android:onClick="on_click_radio"
-            android:text="@string/option_4" />
     </RadioGroup>
 
     <Button
