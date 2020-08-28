@@ -5,6 +5,7 @@
     android:id="@+id/activity_main"
     tools:context=".MainActivity"
     android:layout_width="match_parent"
+    android:background="@drawable/main_back"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
@@ -13,28 +14,51 @@
         android:id="@+id/textView"
         android:layout_width="268dp"
         android:layout_height="82dp"
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="81dp"
-        android:layout_marginEnd="69dp"
-        android:layout_marginBottom="112dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="72dp"
         android:text="@string/main_page"
-        fbutton:layout_constraintBottom_toTopOf="@+id/button1"
         fbutton:layout_constraintEnd_toEndOf="parent"
-        fbutton:layout_constraintStart_toStartOf="parent"
         fbutton:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="71dp"
-        android:layout_marginBottom="408dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="116dp"
         android:text="@string/button1"
-        fbutton:layout_constraintBottom_toBottomOf="parent"
         fbutton:layout_constraintEnd_toEndOf="parent"
-        fbutton:layout_constraintHorizontal_bias="0.0"
-        fbutton:layout_constraintStart_toStartOf="parent"
-        fbutton:layout_constraintTop_toBottomOf="@+id/textView" />
+        fbutton:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:contentDescription="@string/bug_image"
+        fbutton:layout_constraintEnd_toEndOf="parent"
+        fbutton:layout_constraintTop_toTopOf="parent"
+        fbutton:srcCompat="@drawable/green_bug" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="88dp"
+        android:contentDescription="@string/bug_venture"
+        fbutton:layout_constraintEnd_toEndOf="parent"
+        fbutton:layout_constraintTop_toTopOf="parent"
+        fbutton:srcCompat="@drawable/bug_venture" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/mfc_l"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="93dp"
+        fbutton:layout_constraintEnd_toEndOf="parent"
+        fbutton:layout_constraintTop_toBottomOf="@+id/button1"
+        fbutton:srcCompat="@drawable/love_mfc" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,5 +20,8 @@
     <string name="submit_button">SUBMIT</string>
     <string name="situation_ques">The situational question will be displayed here.</string>
     <string name="time_up">The time is up!</string>
+    <string name="bug_image">This is the bug image.</string>
+    <string name="bug_venture">The written bug venture.</string>
+    <string name="mfc_l">The MFC String</string>
 
 </resources>
