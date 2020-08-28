@@ -22,6 +22,10 @@ public class Debug_question extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        public void random_code_generator(){
+            String generatedString = RandomStringUtils.randomAlphanumeric(10);
+            Toast.makeText(getApplicationContext(),generatedString,Toast.LENGTH_SHORT).show();
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_debug_question);
 
@@ -68,7 +72,7 @@ public class Debug_question extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else{
-                    Toast.makeText(getApplicationContext(),"You Answered a question",Toast.LENGTH_SHORT).show(); // If user answered the correct one direct it to the next question by using intent again
+                    random_code_generator(); // If user answered the correct one direct it to the next question by using intent again
                 }
             }
         }.start();
