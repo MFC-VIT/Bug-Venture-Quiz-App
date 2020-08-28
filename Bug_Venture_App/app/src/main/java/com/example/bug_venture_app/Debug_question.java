@@ -1,10 +1,12 @@
 package com.example.bug_venture_app;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -13,6 +15,8 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Random;
+
 public class Debug_question extends AppCompatActivity {
 
     Button next;
@@ -20,24 +24,10 @@ public class Debug_question extends AppCompatActivity {
     RadioButton rd5, rd6, rd7, rd8;
     String temp;
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        
-        @RequiresApi(api = Build.VERSION_CODES.N)
-        public void random_code_generator(){
-            int leftLimit = 48; 
-            int rightLimit = 122; 
-            int targetStringLength = 8;
-            Random random = new Random();
-
-            String generatedString = random.ints(leftLimit, rightLimit + 1)
-                    .filter(i -> (i <= 57 || i >= 65) && (i <= 90 || i >= 97))
-                    .limit(targetStringLength)
-                    .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
-                    .toString();
-
-            Toast.makeText(getApplicationContext(),generatedString,Toast.LENGTH_SHORT).show(); // Just Add like generatedString+textview(score).toString() for addition of the score here
-        }
         
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_debug_question);
@@ -74,6 +64,22 @@ public class Debug_question extends AppCompatActivity {
                     textView2.setText(String.valueOf(l/1000)+"s");
                 }
 
+            }
+
+            @RequiresApi(api = Build.VERSION_CODES.N)
+            public void random_code_generator(){
+                int leftLimit = 48;
+                int rightLimit = 122;
+                int targetStringLength = 8;
+                Random random = new Random();
+
+                String generatedString = random.ints(leftLimit, rightLimit + 1)
+                        .filter(i -> (i <= 57 || i >= 65) && (i <= 90 || i >= 97))
+                        .limit(targetStringLength)
+                        .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
+                        .toString();
+
+                Toast.makeText(getApplicationContext(),generatedString,Toast.LENGTH_SHORT).show(); // Just Add like generatedString+textview(score).toString() for addition of the score here
             }
 
             @Override
