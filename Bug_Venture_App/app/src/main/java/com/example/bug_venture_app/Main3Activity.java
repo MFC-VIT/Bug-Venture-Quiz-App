@@ -38,8 +38,8 @@ public class Main3Activity extends AppCompatActivity {
         auth_state_listener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser mfirebaseUser = authorization.getCurrentUser();
-                if(mfirebaseUser != null){
+                FirebaseUser m_firebaseUser = authorization.getCurrentUser();
+                if(m_firebaseUser != null){
                     Toast.makeText(Main3Activity.this, "You are logged in", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(Main3Activity.this, Main4Activity.class);
                     startActivity(intent);

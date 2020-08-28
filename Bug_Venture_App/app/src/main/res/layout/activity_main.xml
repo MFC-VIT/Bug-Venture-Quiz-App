@@ -10,26 +10,6 @@
     android:orientation="vertical">
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="268dp"
-        android:layout_height="82dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="72dp"
-        android:text="@string/main_page"
-        fbutton:layout_constraintEnd_toEndOf="parent"
-        fbutton:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="524dp"
-        android:layout_marginEnd="116dp"
-        android:text="@string/button1"
-        fbutton:layout_constraintEnd_toEndOf="parent"
-        fbutton:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -55,10 +35,10 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/mfc_l"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="132dp"
         android:layout_marginEnd="93dp"
+        android:contentDescription="@string/mfc_l"
         fbutton:layout_constraintEnd_toEndOf="parent"
-        fbutton:layout_constraintTop_toBottomOf="@+id/button1"
+        fbutton:layout_constraintTop_toBottomOf="@+id/imageView2"
         fbutton:srcCompat="@drawable/love_mfc" />
 </androidx.constraintlayout.widget.ConstraintLayout>

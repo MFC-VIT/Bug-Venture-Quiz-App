@@ -679,6 +679,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable bug_venture
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -700,8 +701,11 @@ drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable green_bug
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable love_mfc
+drawable main_back
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -831,6 +835,9 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
+id imageView2
+id imageView3
 id info
 id invisible
 id italic
@@ -911,7 +918,6 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView
 id textView2
 id textView3
 id textView4
@@ -1024,6 +1030,8 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string bug_image
+string bug_venture
 string button1
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
@@ -1058,6 +1066,7 @@ string login
 string login_button
 string logout
 string main_page
+string mfc_l
 string option_1
 string option_2
 string option_3

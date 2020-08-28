@@ -1,4 +1,4 @@
-#Fri Aug 28 22:17:08 IST 2020
+#Fri Aug 28 23:12:08 IST 2020
 base.0=/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
