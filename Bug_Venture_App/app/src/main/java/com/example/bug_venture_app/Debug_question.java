@@ -60,6 +60,7 @@ public class Debug_question extends AppCompatActivity {
 
 
         current_question = list.get(qid);
+        updateQueAndOptions();
 
         temp = "";
 
