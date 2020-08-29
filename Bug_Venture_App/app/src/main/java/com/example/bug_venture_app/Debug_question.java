@@ -15,14 +15,21 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Collections;
+import java.util.List;
 import java.util.Random;
 
 public class Debug_question extends AppCompatActivity {
 
     Button next;
-    TextView textView2;
+    TextView textView2, question;
     RadioButton rd5, rd6, rd7, rd8;
-    String temp;
+    String temp, select;
+    List<QuizQuestion> list;
+    int qid = 0;
+    CountDownTimer countDownTimer;
+    QuizQuestion current_question;
+    Question_Helper question_helper;
 
     @RequiresApi(api = Build.VERSION_CODES.N)
 
@@ -38,17 +45,40 @@ public class Debug_question extends AppCompatActivity {
         rd6 = (RadioButton) findViewById(R.id.radioButton6);
         rd7 = (RadioButton) findViewById(R.id.radioButton7);
         rd8 = (RadioButton) findViewById(R.id.radioButton8);
+        question = (TextView) findViewById(R.id.textView7);
+
+        question_helper = new Question_Helper(this);
+        question_helper.getWritableDatabase();
+
+        if(question_helper.getAllOfTheQuestions().size() == 0) {
+            question_helper.allQuestion();
+        }
+        if(qid == 0) {
+            list = question_helper.getAllOfTheQuestions();
+            Collections.shuffle(list);
+        }
+
+
+        current_question = list.get(qid);
 
         temp = "";
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
-                startActivity(intent);
+                if(select.equals(current_question.getAnswer())) {
+                    Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                    qid = qid + 1;
+                    startActivity(intent);
+                }
+                else {
+                    Intent intent = new Intent(Debug_question.this, Wrong_debug_ans.class);
+                    startActivity(intent);
+                }
+
             }
         });
-        new CountDownTimer(30500,1000) {
+        countDownTimer = new CountDownTimer(30500,1000) {
             @Override
             public void onTick(long l) {
                 if(l/1000<(long)11){
@@ -106,21 +136,28 @@ public class Debug_question extends AppCompatActivity {
         switch (view.getId()){
             case R.id.radioButton5:
                 if(checked)
-                    rd5.setTextColor(Color.GREEN);
+                    select = rd5.getText().toString();
                 break;
             case R.id.radioButton6:
                 if(checked)
-                    rd6.setTextColor(Color.GREEN);
+                    select = rd6.getText().toString();
                 break;
             case R.id.radioButton7:
                 if(checked)
-                    rd7.setTextColor(Color.GREEN);
+                    select = rd7.getText().toString();
                 break;
             case R.id.radioButton8:
                 if(checked)
-                    rd8.setTextColor(Color.GREEN);
+                    select = rd8.getText().toString();
                 break;
         }
+    }
 
+    public void updateQueAndOptions() {
+        question.setText(current_question.getQuestion());
+        rd5.setText(current_question.getOptA());
+        rd6.setText(current_question.getOptB());
+        rd7.setText(current_question.getOptC());
+        rd8.setText(current_question.getOptD());
     }
 }

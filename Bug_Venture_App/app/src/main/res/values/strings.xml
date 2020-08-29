@@ -23,5 +23,10 @@
     <string name="bug_image">This is the bug image.</string>
     <string name="bug_venture">The written bug venture.</string>
     <string name="mfc_l">The MFC String</string>
+    <string name="next_button">Next</string>
+    <string name="debugcodeheading">DEBUG THE CODE.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="situation_string_">WHAT WOULD YOU DO?</string>
 
 </resources>

@@ -2,7 +2,7 @@ package com.example.bug_venture_app;
 
 import android.app.Activity;
 
-public abstract class QuizQuestion extends Activity{
+public class QuizQuestion extends Activity{
     private int id;
     private String question;
     private String opt_a;

@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class Situation_Ques extends AppCompatActivity {
 
-    Button submit;
+    Button submit, yes, no;
     RadioButton rd1, rd2, rd3, rd4;
     TextView question;
     TextView textView2;
@@ -24,10 +24,11 @@ public class Situation_Ques extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_situation__ques);
 
-        rd1 = (RadioButton) findViewById(R.id.radioButton);
-        rd2 = (RadioButton) findViewById(R.id.radioButton2);
+
 
         submit = (Button) findViewById(R.id.button5);
+        yes = (Button) findViewById(R.id.button3);
+        no = (Button) findViewById(R.id.button8);
         textView2 = (TextView) findViewById(R.id.time_sit);
 
         submit.setOnClickListener(new View.OnClickListener() {
@@ -37,6 +38,7 @@ public class Situation_Ques extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         new CountDownTimer(30500,1000) {
             @Override
             public void onTick(long l) {
@@ -73,20 +75,6 @@ public class Situation_Ques extends AppCompatActivity {
     @Override
     public void onBackPressed(){
         Toast.makeText(this,"Sorry Not Possible!",Toast.LENGTH_SHORT).show();
-    }
-
-    public void on_click_radio(View view) {
-        boolean checked = ((RadioButton) view).isChecked();
-        switch (view.getId()){
-            case R.id.radioButton:
-                if(checked)
-                    rd1.setTextColor(Color.GREEN);
-                break;
-            case R.id.radioButton2:
-                if(checked)
-                    rd2.setTextColor(Color.GREEN);
-                break;
-        }
     }
 
 
