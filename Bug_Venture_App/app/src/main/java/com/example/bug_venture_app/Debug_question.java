@@ -53,13 +53,14 @@ public class Debug_question extends AppCompatActivity {
         if(question_helper.getAllOfTheQuestions().size() == 0) {
             question_helper.allQuestion();
         }
+
         if(qid == 0) {
             list = question_helper.getAllOfTheQuestions();
             Collections.shuffle(list);
         }
 
-
         current_question = list.get(qid);
+        updateQueAndOptions();
 
         temp = "";
 
