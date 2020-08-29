@@ -32,4 +32,16 @@
 
     </style>
 
+    <style name="what_would_">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="android:textColor">
+            #E85B09
+        </item>
+
+    </style>
+
 </resources>

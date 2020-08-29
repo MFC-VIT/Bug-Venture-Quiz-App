@@ -699,13 +699,14 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable debug_option_background
 drawable email
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable green_bug
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable login
+drawable login_
 drawable login_back
 drawable login_next_button
 drawable love_mfc
@@ -723,7 +724,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable option_circle
 drawable password
+drawable situation_background
+drawable situation_button_theme
+drawable situation_next_button
+drawable situation_no_button
+drawable situation_yes_button
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -803,6 +810,7 @@ id button4
 id button5
 id button6
 id button7
+id button8
 id buttonPanel
 id center_vertical
 id chains
@@ -846,6 +854,7 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
+id imageView7
 id info
 id invisible
 id italic
@@ -873,8 +882,6 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
-id radioButton
-id radioButton2
 id radioButton5
 id radioButton6
 id radioButton7
@@ -926,12 +933,14 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id textView2
 id textView3
 id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id time
 id time_deb
 id time_sit
@@ -1059,6 +1068,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string debug_ques
+string debugcodeheading
 string default_web_client_id
 string email
 string firebase_database_url
@@ -1075,6 +1085,7 @@ string logout
 string main_page
 string mfc_l
 string next_button
+string no
 string option_1
 string option_2
 string option_3
@@ -1086,8 +1097,10 @@ string search_menu_title
 string sign_up
 string sign_up_button
 string situation_ques
+string situation_string_
 string status_bar_notification_info_overflow
 string time_up
+string yes
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -1441,6 +1454,7 @@ style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 style next
 style radio_button_style
+style what_would_
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

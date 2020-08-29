@@ -438,6 +438,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="debug_ques">The debug question will be displayed here</string>
+    <string name="debugcodeheading">DEBUG THE CODE.</string>
     <string name="default_web_client_id" translatable="false">139928817710-5frs848tc8esouas2qq9l5ptbepbfghf.apps.googleusercontent.com</string>
     <string name="email">E - Mail</string>
     <string name="firebase_database_url" translatable="false">https://bug-venture-app.firebaseio.com</string>
@@ -453,7 +454,8 @@
     <string name="logout">LOG OUT</string>
     <string name="main_page">This is the main page</string>
     <string name="mfc_l">The MFC String</string>
-    <string name="next_button">NExt</string>
+    <string name="next_button">Next</string>
+    <string name="no">No</string>
     <string name="option_1">OPTION 1</string>
     <string name="option_2">OPTION 2</string>
     <string name="option_3">OPTION 3</string>
@@ -465,15 +467,17 @@
     <string name="sign_up">This is the sign up page</string>
     <string name="sign_up_button">SIGN UP</string>
     <string name="situation_ques">The situational question will be displayed here.</string>
+    <string name="situation_string_">WHAT WOULD YOU DO?</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="time_up">The time is up!</string>
+    <string name="yes">Yes</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="Animation.AppCompat.Tooltip" parent="Base.Animation.AppCompat.Tooltip"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -1988,6 +1992,17 @@
 
         <item name="android:background">
             #00000000
+        </item>
+
+    </style>
+    <style name="what_would_">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="android:textColor">
+            #E85B09
         </item>
 
     </style>

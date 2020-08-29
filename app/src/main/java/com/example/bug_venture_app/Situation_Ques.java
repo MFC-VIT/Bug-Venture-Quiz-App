@@ -8,14 +8,12 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
-import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class Situation_Ques extends AppCompatActivity {
 
-    Button submit;
-    RadioButton rd1, rd2, rd3, rd4;
+    Button submit,rd1, rd2, rd3, rd4;
     TextView question;
     TextView textView2;
 
@@ -24,8 +22,8 @@ public class Situation_Ques extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_situation__ques);
 
-        rd1 = (RadioButton) findViewById(R.id.radioButton);
-        rd2 = (RadioButton) findViewById(R.id.radioButton2);
+        rd1 = (Button) findViewById(R.id.button3);
+        rd2 = (Button) findViewById(R.id.button8);
 
         submit = (Button) findViewById(R.id.button5);
         textView2 = (TextView) findViewById(R.id.time_sit);
@@ -75,14 +73,14 @@ public class Situation_Ques extends AppCompatActivity {
         Toast.makeText(this,"Sorry Not Possible!",Toast.LENGTH_SHORT).show();
     }
 
-    public void on_click_radio(View view) {
-        boolean checked = ((RadioButton) view).isChecked();
+    public void on_click_situation(View view) {
+        boolean checked = ((Button) view).isPressed();
         switch (view.getId()){
-            case R.id.radioButton:
+            case R.id.button3:
                 if(checked)
                     rd1.setTextColor(Color.GREEN);
                 break;
-            case R.id.radioButton2:
+            case R.id.button8:
                 if(checked)
                     rd2.setTextColor(Color.GREEN);
                 break;

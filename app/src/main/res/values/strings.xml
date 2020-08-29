@@ -17,11 +17,15 @@
     <string name="option_2">OPTION 2</string>
     <string name="option_3">OPTION 3</string>
     <string name="option_4">OPTION 4</string>
-    <string name="next_button">NExt</string>
+    <string name="next_button">Next</string>
     <string name="situation_ques">The situational question will be displayed here.</string>
     <string name="time_up">The time is up!</string>
     <string name="bug_image">This is the bug image.</string>
     <string name="bug_venture">The written bug venture.</string>
     <string name="mfc_l">The MFC String</string>
+    <string name="situation_string_">WHAT WOULD YOU DO?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="debugcodeheading">DEBUG THE CODE.</string>
 
 </resources>

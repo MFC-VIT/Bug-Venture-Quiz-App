@@ -12,6 +12,10 @@
         "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\layout\\activity_time_up.xml"
     },
     {
+        "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_situation_next_button.png.flat",
+        "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\situation_next_button.png"
+    },
+    {
         "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -36,8 +40,16 @@
         "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login.png.flat",
-        "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\login.png"
+        "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_debug_option_background.png.flat",
+        "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\debug_option_background.png"
+    },
+    {
+        "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_situation_button_theme.png.flat",
+        "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\situation_button_theme.png"
+    },
+    {
+        "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_situation_yes_button.png.flat",
+        "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\situation_yes_button.png"
     },
     {
         "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -92,6 +104,14 @@
         "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_situation_no_button.png.flat",
+        "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\situation_no_button.png"
+    },
+    {
+        "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_situation_background.png.flat",
+        "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\situation_background.png"
+    },
+    {
         "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
         "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
@@ -104,8 +124,16 @@
         "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\main_back.png"
     },
     {
+        "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_option_circle.png.flat",
+        "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\option_circle.png"
+    },
+    {
         "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_.png.flat",
+        "source": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\login_.png"
     },
     {
         "merged": "E:\\Club\\Quiz_Game-master\\Quiz_Game-master\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_password.png.flat",
