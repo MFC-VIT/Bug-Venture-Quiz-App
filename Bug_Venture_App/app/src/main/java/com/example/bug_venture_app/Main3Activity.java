@@ -35,18 +35,15 @@ public class Main3Activity extends AppCompatActivity {
 
         authorization = FirebaseAuth.getInstance();
 
-        auth_state_listener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser m_firebaseUser = authorization.getCurrentUser();
-                if(m_firebaseUser != null){
-                    Toast.makeText(Main3Activity.this, "You are logged in", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(Main3Activity.this, Main4Activity.class);
-                    startActivity(intent);
-                }
-                else{
-                    Toast.makeText(Main3Activity.this, "Please login", Toast.LENGTH_SHORT).show();
-                }
+        auth_state_listener = firebaseAuth -> {
+            FirebaseUser m_firebaseUser = authorization.getCurrentUser();
+            if(m_firebaseUser != null){
+                Toast.makeText(Main3Activity.this, "You are logged in", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Main3Activity.this, Main4Activity.class);
+                startActivity(intent);
+            }
+            else{
+                Toast.makeText(Main3Activity.this, "Please login", Toast.LENGTH_SHORT).show();
             }
         };
 
@@ -82,11 +79,5 @@ public class Main3Activity extends AppCompatActivity {
                 }
             }
         });
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        authorization.addAuthStateListener(auth_state_listener);
     }
 }

@@ -20,8 +20,8 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="377dp"
+        android:layout_height="344dp"
         android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,10 +31,10 @@
             android:id="@+id/radioButton5"
             style="@style/radio_button_style"
             android:layout_width="match_parent"
-            android:layout_height="49dp"
+            android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:background="@drawable/debug_option_background"
-            android:button="@drawable/option_circle"
+            android:background="@drawable/option_debug1"
+            android:button="@null"
             android:onClick="on_click"
             android:padding="10dp"
             android:text="@string/option_1" />
@@ -43,10 +43,10 @@
             android:id="@+id/radioButton6"
             style="@style/radio_button_style"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:background="@drawable/debug_option_background"
-            android:button="@drawable/option_circle"
+            android:background="@drawable/option_debug1"
+            android:button="@null"
             android:onClick="on_click"
             android:padding="10dp"
             android:text="@string/option_2" />
@@ -55,10 +55,10 @@
             android:id="@+id/radioButton7"
             style="@style/radio_button_style"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:background="@drawable/debug_option_background"
-            android:button="@drawable/option_circle"
+            android:background="@drawable/option_debug1"
+            android:button="@null"
             android:onClick="on_click"
             android:padding="10dp"
             android:text="@string/option_3" />
@@ -67,10 +67,10 @@
             android:id="@+id/radioButton8"
             style="@style/radio_button_style"
             android:layout_width="match_parent"
-            android:layout_height="54dp"
+            android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:background="@drawable/debug_option_background"
-            android:button="@drawable/option_circle"
+            android:button="@null"
+            android:background="@drawable/option_debug1"
             android:onClick="on_click"
             android:padding="10dp"
             android:text="@string/option_4" />
@@ -112,4 +112,5 @@
         app:layout_constraintHorizontal_bias="0.203"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

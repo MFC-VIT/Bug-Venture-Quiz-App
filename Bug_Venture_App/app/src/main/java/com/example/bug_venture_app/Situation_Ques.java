@@ -16,8 +16,8 @@ public class Situation_Ques extends AppCompatActivity {
 
     Button submit, yes, no;
     RadioButton rd1, rd2, rd3, rd4;
-    TextView question;
-    TextView textView2;
+    TextView textView2, question;
+    String selected;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,5 +77,18 @@ public class Situation_Ques extends AppCompatActivity {
         Toast.makeText(this,"Sorry Not Possible!",Toast.LENGTH_SHORT).show();
     }
 
+    public void on_click_bt1(View view) {
+        yes.setBackgroundResource(R.drawable.yes_selected);
+        no.setBackgroundResource(R.drawable.yes_not_select);
+
+        selected = "Yes";
+    }
+
+    public void on_click_bt2(View view) {
+        no.setBackgroundResource(R.drawable.yes_selected);
+        yes.setBackgroundResource(R.drawable.yes_not_select);
+
+        selected = "No";
+    }
 
 }

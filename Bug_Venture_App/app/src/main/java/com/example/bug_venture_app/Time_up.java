@@ -4,29 +4,28 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Time_up extends AppCompatActivity {
 
-    Button logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_time_up);
 
-        logout = (Button) findViewById(R.id.button7);
+        FirebaseAuth.getInstance().signOut();
+        Toast.makeText(Time_up.this, "You have been logged out successfully.", Toast.LENGTH_SHORT).show();
 
-        logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                FirebaseAuth.getInstance().signOut();
-                Intent intent = new Intent(Time_up.this, Main3Activity.class);
-                startActivity(intent);
-            }
-        });
+    }
+
+    @Override
+    public void onBackPressed(){
+        Toast.makeText(this,"You cannot go back!",Toast.LENGTH_SHORT).show();
     }
 }

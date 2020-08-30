@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -24,7 +25,7 @@ public class Debug_question extends AppCompatActivity {
     Button next;
     TextView textView2, question;
     RadioButton rd5, rd6, rd7, rd8;
-    String temp, select;
+    String temp, select, te;
     List<QuizQuestion> list;
     int qid = 0;
     CountDownTimer countDownTimer;
@@ -64,6 +65,7 @@ public class Debug_question extends AppCompatActivity {
 
         temp = "";
 
+
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,7 +75,7 @@ public class Debug_question extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else {
-                    Intent intent = new Intent(Debug_question.this, Wrong_debug_ans.class);
+                    Intent intent = new Intent(Debug_question.this, Time_up.class);
                     startActivity(intent);
                 }
 
@@ -129,7 +131,7 @@ public class Debug_question extends AppCompatActivity {
     }
     @Override
     public void onBackPressed(){
-        Toast.makeText(this,"Sorry Not Possible!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"You cannot go back!",Toast.LENGTH_SHORT).show();
     }
 
     public void on_click(View view) {
@@ -138,18 +140,34 @@ public class Debug_question extends AppCompatActivity {
             case R.id.radioButton5:
                 if(checked)
                     select = rd5.getText().toString();
+                    rd5.setBackgroundResource(R.drawable.option_debug);
+                    rd6.setBackgroundResource(R.drawable.option_debug1);
+                    rd7.setBackgroundResource(R.drawable.option_debug1);
+                    rd8.setBackgroundResource(R.drawable.option_debug1);
                 break;
             case R.id.radioButton6:
                 if(checked)
                     select = rd6.getText().toString();
+                    rd6.setBackgroundResource(R.drawable.option_debug);
+                    rd5.setBackgroundResource(R.drawable.option_debug1);
+                    rd7.setBackgroundResource(R.drawable.option_debug1);
+                    rd8.setBackgroundResource(R.drawable.option_debug1);
                 break;
             case R.id.radioButton7:
                 if(checked)
                     select = rd7.getText().toString();
+                    rd7.setBackgroundResource(R.drawable.option_debug);
+                    rd6.setBackgroundResource(R.drawable.option_debug1);
+                    rd5.setBackgroundResource(R.drawable.option_debug1);
+                    rd8.setBackgroundResource(R.drawable.option_debug1);
                 break;
             case R.id.radioButton8:
                 if(checked)
                     select = rd8.getText().toString();
+                    rd8.setBackgroundResource(R.drawable.option_debug);
+                    rd6.setBackgroundResource(R.drawable.option_debug1);
+                    rd7.setBackgroundResource(R.drawable.option_debug1);
+                    rd5.setBackgroundResource(R.drawable.option_debug1);
                 break;
         }
     }
