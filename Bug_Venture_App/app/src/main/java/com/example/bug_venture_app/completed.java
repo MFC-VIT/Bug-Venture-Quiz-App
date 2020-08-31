@@ -18,19 +18,10 @@ public class completed extends AppCompatActivity {
 
         FirebaseAuth.getInstance().signOut();
         Toast.makeText(completed.this, "You have been logged out successfully.", Toast.LENGTH_SHORT).show();
+    }
 
-        new CountDownTimer(30500, 1000) {
-
-            @Override
-            public void onTick(long millisUntilFinished) {
-
-            }
-
-            @Override
-            public void onFinish() {
-                Intent intent = new Intent(completed.this, Main3Activity.class);
-                startActivity(intent);
-            }
-        }.start();
+    @Override
+    public void onBackPressed(){
+        Toast.makeText(this,"You cannot go back!",Toast.LENGTH_SHORT).show();
     }
 }

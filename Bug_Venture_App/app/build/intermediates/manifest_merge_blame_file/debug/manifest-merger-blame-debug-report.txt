@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml
+8-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml
+9-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml
 10
 11    <!-- Required permission for App measurement to run. -->
 12    <uses-permission android:name="android.permission.INTERNET" />
@@ -25,56 +25,56 @@
 15-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/454e4dc704095075d9fd80bc1735ed2b/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
 16
 17    <application
-17-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:5:5-26:19
+17-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:5:5-26:19
 18        android:allowBackup="true"
-18-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:6:9-35
+18-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/c7c298e0dd1ea53a5a3551feb133ee7f/core-1.3.0/AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
-21-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:7:9-43
+21-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:7:9-43
 22        android:label="@string/app_name"
-22-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:8:9-41
+22-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:8:9-41
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:9:9-54
+23-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:9:9-54
 24        android:supportsRtl="true"
-24-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:10:9-35
+24-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:10:9-35
 25        android:testOnly="true"
 26        android:theme="@style/AppTheme" >
-26-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:11:9-40
+26-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:11:9-40
 27        <activity android:name="com.example.bug_venture_app.completed" />
-27-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:12:9-56
-27-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:12:19-44
+27-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:12:9-56
+27-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:12:19-44
 28        <activity android:name="com.example.bug_venture_app.Time_up" />
-28-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:13:9-45
-28-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:13:19-42
+28-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:13:9-45
+28-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:13:19-42
 29        <activity android:name="com.example.bug_venture_app.Debug_question" />
-29-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:14:9-52
-29-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:14:19-49
+29-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:14:9-52
+29-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:14:19-49
 30        <activity android:name="com.example.bug_venture_app.Situation_Ques" />
-30-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:15:9-52
-30-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:15:19-49
+30-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:15:9-52
+30-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:15:19-49
 31        <activity android:name="com.example.bug_venture_app.Main4Activity" />
-31-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:16:9-51
-31-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:16:19-48
+31-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:16:9-51
+31-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:16:19-48
 32        <activity android:name="com.example.bug_venture_app.Main3Activity" />
-32-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:17:9-51
-32-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:17:19-48
+32-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:17:9-51
+32-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:17:19-48
 33        <activity android:name="com.example.bug_venture_app.Main2Activity" />
-33-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:18:9-51
-33-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:18:19-48
+33-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:18:9-51
+33-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:18:19-48
 34        <activity android:name="com.example.bug_venture_app.MainActivity" >
-34-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:19:9-25:20
-34-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:19:19-47
+34-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:19:9-25:20
+34-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:19:19-47
 35            <intent-filter>
-35-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:20:13-24:29
+35-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:20:13-24:29
 36                <action android:name="android.intent.action.MAIN" />
-36-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:21:17-69
-36-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:21:25-66
+36-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:21:17-69
+36-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:21:25-66
 37
 38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:23:17-77
-38-->/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:23:27-74
+38-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:23:17-77
+38-->/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:23:27-74
 39            </intent-filter>
 40        </activity>
 41        <activity

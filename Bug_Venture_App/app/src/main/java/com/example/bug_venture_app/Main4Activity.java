@@ -3,23 +3,58 @@ package com.example.bug_venture_app;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.nfc.Tag;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.Collections;
+import java.util.List;
+
 public class Main4Activity extends AppCompatActivity {
 
+    private static final String TAG = MainActivity.class.getSimpleName();
     Button play;
     FirebaseAuth auth;
     private FirebaseAuth.AuthStateListener authStateListener;
+    static List<QuizQuestion> list;
+    static QidStoreDebug qidStoreDebug;
+    Question_Helper question_helper;
+    static List<QuizQuestionSit> list_sit;
+    static Qid_Sit qid_sit;
+    Ques_Sit_Helper ques_sit_helper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
+
+        question_helper = new Question_Helper(this);
+        question_helper.getWritableDatabase();
+
+        ques_sit_helper = new Ques_Sit_Helper(this);
+        ques_sit_helper.getWritableDatabase();
+
+        if(question_helper.getAllOfTheQuestions().size() == 0) {
+            question_helper.allQuestion();
+        }
+
+        if(ques_sit_helper.getAllOfTheQuestions().size() == 0) {
+            ques_sit_helper.allQuestion();
+        }
+
+        if(qidStoreDebug.getQ_id() == 0) {
+            list = question_helper.getAllOfTheQuestions();
+            Collections.shuffle(list);
+        }
+
+        if(qid_sit.getQid_s() == 0) {
+            list_sit = ques_sit_helper.getAllOfTheQuestions();
+        }
 
         play = (Button) findViewById(R.id.button4);
 
@@ -30,6 +65,8 @@ public class Main4Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Log.d(TAG, "onCreate: Instructions");
     }
 
     @Override

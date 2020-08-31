@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/kaustubh/Desktop/git_check/Quiz_Game/Bug_Venture_App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
+            "outputFile": "/home/kaustubh/Desktop/Quiz_Game/Bug_Venture_App/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "/home/kaustubh/.gradle/caches/transforms-2/files-2.1/e33b28a1604fa6b21484a78757ef1f1f/appcompat-1.2.0/res/values-ur/values-ur.xml",
