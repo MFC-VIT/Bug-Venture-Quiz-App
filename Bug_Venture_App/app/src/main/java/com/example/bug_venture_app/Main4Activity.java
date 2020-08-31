@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -27,11 +28,19 @@ public class Main4Activity extends AppCompatActivity {
     static List<QuizQuestionSit> list_sit;
     static Qid_Sit qid_sit;
     Ques_Sit_Helper ques_sit_helper;
+    static List<Integer> correct_sequence;
+    static List<Integer> player_sequence;
+    static long total_time;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
+
+        correct_sequence = new ArrayList<Integer>();
+        player_sequence = new ArrayList<Integer>();
+        init_sequence();
+        total_time = 0;
 
         question_helper = new Question_Helper(this);
         question_helper.getWritableDatabase();
@@ -72,5 +81,11 @@ public class Main4Activity extends AppCompatActivity {
     @Override
     public void onBackPressed(){
         Toast.makeText(this,"You cannot go back!",Toast.LENGTH_SHORT).show();
+    }
+
+    public void init_sequence() {
+        correct_sequence.add(1);
+        correct_sequence.add(0);
+        correct_sequence.add(1);
     }
 }

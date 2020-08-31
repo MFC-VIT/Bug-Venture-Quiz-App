@@ -21,6 +21,7 @@ public class Main3Activity extends AppCompatActivity {
     Button login;
     EditText email_ID, password;
     FirebaseAuth authorization;
+    static String e_Mail;
     private FirebaseAuth.AuthStateListener auth_state_listener;
 
 
@@ -52,6 +53,7 @@ public class Main3Activity extends AppCompatActivity {
             public void onClick(View v) {
                 String email = email_ID.getText().toString();
                 String pass = password.getText().toString();
+                e_Mail = email;
 
                 if(email.isEmpty()){
                     email_ID.setError("Please enter the email id");

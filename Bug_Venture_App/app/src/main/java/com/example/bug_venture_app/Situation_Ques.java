@@ -13,19 +13,21 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static com.example.bug_venture_app.Main4Activity.player_sequence;
 import static com.example.bug_venture_app.Main4Activity.qidStoreDebug;
 import static com.example.bug_venture_app.Main4Activity.qid_sit;
+import static com.example.bug_venture_app.Main4Activity.total_time;
 
 public class Situation_Ques extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
     Button submit, yes, no;
-    RadioButton rd1, rd2, rd3, rd4;
     TextView textView2, question;
-    String selected, temp;
+    String selected;
 
     QuizQuestionSit current_q;
+    CountDownTimer countDownTimer_Sit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +41,7 @@ public class Situation_Ques extends AppCompatActivity {
         no = (Button) findViewById(R.id.button8);
         textView2 = (TextView) findViewById(R.id.time_sit);
         question = (TextView) findViewById(R.id.textView6);
-        temp = "";
+        selected = "";
 
         current_q = Main4Activity.list_sit.get(qid_sit.getQid_s());
         updateQ();
@@ -54,13 +56,17 @@ public class Situation_Ques extends AppCompatActivity {
             public void onClick(View v) {
                 if(selected.equals("Yes")) {
                     Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
+                    player_sequence.add(0);
                     qid_sit.updateLeft();
+                    countDownTimer_Sit.cancel();
                     startActivity(intent);
                 }
 
                 else if (selected.equals("No")) {
                     Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
+                    player_sequence.add(1);
                     qid_sit.updateRight();
+                    countDownTimer_Sit.cancel();
                     startActivity(intent);
                 }
             }
@@ -73,7 +79,7 @@ public class Situation_Ques extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        new CountDownTimer(30500,1000) {
+        countDownTimer_Sit = new CountDownTimer(30500,1000) {
             @Override
             public void onTick(long l) {
                 if(l/1000<(long)11){
@@ -89,17 +95,30 @@ public class Situation_Ques extends AppCompatActivity {
                     textView2.setText(String.valueOf(l/1000)+"s");
                 }
 
+                total_time = total_time + 1;
             }
 
             @Override
             public void onFinish() {
-                // Also in place of rsAmount.getText.toString() => Change it according to the answer given or not also if given what was given
-                if(temp.equals("") || rd1.getText().toString().equals("0")){ // BY this if the user has  not given any answer then he will be out
-                    Intent intent = new Intent(getApplicationContext(),Main2Activity.class); // Here change the activity name for the newQuestion
+                if (selected.equals("")) { // BY this if the user has given the wrong answer or not given any answer then he will be out
+                    Intent intent = new Intent(Situation_Ques.this, Time_up.class); // Here change the activity name for the newQuestion
                     startActivity(intent);
-                }
-                else{
-                    Toast.makeText(getApplicationContext(),"You Answered a question",Toast.LENGTH_SHORT).show(); // If user answered the correct one direct it to the next question by using intent again
+                } else {
+                    if(selected.equals("Yes")) {
+                        Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
+                        player_sequence.add(0);
+                        qid_sit.updateLeft();
+                        countDownTimer_Sit.cancel();
+                        startActivity(intent);
+                    }
+
+                    else if (selected.equals("No")) {
+                        Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
+                        player_sequence.add(1);
+                        qid_sit.updateRight();
+                        countDownTimer_Sit.cancel();
+                        startActivity(intent);
+                    }
                 }
             }
         }.start();

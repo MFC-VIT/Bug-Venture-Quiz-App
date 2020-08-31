@@ -21,16 +21,19 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+import static com.example.bug_venture_app.Main4Activity.correct_sequence;
+import static com.example.bug_venture_app.Main4Activity.player_sequence;
 import static com.example.bug_venture_app.Main4Activity.qidStoreDebug;
+import static com.example.bug_venture_app.Main4Activity.total_time;
 
 public class Debug_question extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
     Button next;
-    TextView textView2, question;
+    TextView textView2, question, q_no;
     RadioButton rd5, rd6, rd7, rd8;
-    String temp, select, te;
+    String select;
 
 
     CountDownTimer countDownTimer;
@@ -50,13 +53,37 @@ public class Debug_question extends AppCompatActivity {
         rd7 = (RadioButton) findViewById(R.id.radioButton7);
         rd8 = (RadioButton) findViewById(R.id.radioButton8);
         question = (TextView) findViewById(R.id.textView7);
-        temp = "";
+        q_no = (TextView) findViewById(R.id.textView);
+        select = "";
 
         if(qidStoreDebug.getQ_id() == 3) {
-            Intent intent = new Intent(Debug_question.this, Time_up.class);
-            startActivity(intent);
+            boolean flag = false;
+            for(int i = 0; i < 3; i++) {
+                if(correct_sequence.get(i) == player_sequence.get(i)) {
+                    flag = true;
+                }
+                else {
+                    flag = false;
+                    break;
+                }
+            }
+
+            if(flag) {
+                Intent intent = new Intent(Debug_question.this, Final_Activity.class);
+                startActivity(intent);
+                finish();
+            }
+            else {
+                Intent intent = new Intent(Debug_question.this, completed.class);
+                startActivity(intent);
+                finish();
+            }
+
         }
+
         current_question = Main4Activity.list.get(qidStoreDebug.getQ_id());
+        q_no.setText("Question " + (qidStoreDebug.getQ_id() + 1));
+
         updateQueAndOptions();
     }
 
@@ -68,12 +95,22 @@ public class Debug_question extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (select.equals(current_question.getAnswer())) {
-                    Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
-                    qidStoreDebug.updateQ_id();
-                    startActivity(intent);
+                    if(qidStoreDebug.getQ_id() == 0) {
+                        Intent intent = new Intent(Debug_question.this, Twist.class);
+                        qidStoreDebug.updateQ_id();
+                        countDownTimer.cancel();
+                        startActivity(intent);
+                    }
+                    else {
+                        Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                        qidStoreDebug.updateQ_id();
+                        countDownTimer.cancel();
+                        startActivity(intent);
+                    }
                 } else {
                     Intent intent = new Intent(Debug_question.this, Time_up.class);
                     startActivity(intent);
+                    finish();
                 }
 
             }
@@ -101,34 +138,27 @@ public class Debug_question extends AppCompatActivity {
                     textView2.setText(String.valueOf(l / 1000) + "s");
                 }
 
+                total_time = total_time + 1;
             }
 
-            @RequiresApi(api = Build.VERSION_CODES.N)
-            public void random_code_generator() {
-                int leftLimit = 48;
-                int rightLimit = 122;
-                int targetStringLength = 8;
-                Random random = new Random();
-
-                String generatedString = random.ints(leftLimit, rightLimit + 1)
-                        .filter(i -> (i <= 57 || i >= 65) && (i <= 90 || i >= 97))
-                        .limit(targetStringLength)
-                        .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
-                        .toString();
-
-                Toast.makeText(getApplicationContext(), generatedString, Toast.LENGTH_SHORT).show(); // Just Add like generatedString+textview(score).toString() for addition of the score here
-            }
-
-            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onFinish() {
                 // Also in place of rsAmount.getText.toString() => Change it according to the answer given or not also if given what was given
-                if (temp.equals("") || rd5.getText().toString().equals("0")) { // BY this if the user has given the wrong answer or not given any answer then he will be out
+                if (select.equals("")) { // BY this if the user has given the wrong answer or not given any answer then he will be out
                     Intent intent = new Intent(Debug_question.this, Time_up.class); // Here change the activity name for the newQuestion
-                    intent.putExtra("name", "Your BugVenture Ends Here.");
                     startActivity(intent);
                 } else {
-                    random_code_generator(); // If user answered the correct one direct it to the next question by using intent again
+                    if(select.equals(current_question.getAnswer())) {
+                        Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                        qidStoreDebug.updateQ_id();
+                        countDownTimer.cancel();
+                        startActivity(intent);
+                    }
+                    else {
+                        Intent intent = new Intent(Debug_question.this, Time_up.class);
+                        startActivity(intent);
+                        finish();
+                    }
                 }
             }
         }.start();
