@@ -701,6 +701,8 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable custom_progress
+drawable custom_progress_situation
 drawable debug_option_background
 drawable email_
 drawable googleg_disabled_color_18
@@ -746,6 +748,7 @@ drawable situation_yes_button
 drawable t_t
 drawable time_up_back
 drawable time_up_txt
+drawable timeclock
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable u_c
@@ -856,6 +859,7 @@ id end
 id expand_activities_button
 id expanded_menu
 id forever
+id frameLayout
 id gone
 id group_divider
 id groups
@@ -913,6 +917,8 @@ id parentPanel
 id percent
 id progress_circular
 id progress_horizontal
+id progressbar
+id progressbarsituation
 id radio
 id radioButton5
 id radioButton6

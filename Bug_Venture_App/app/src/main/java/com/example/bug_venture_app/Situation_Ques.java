@@ -9,6 +9,7 @@ import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -29,6 +30,9 @@ public class Situation_Ques extends AppCompatActivity {
     QuizQuestionSit current_q;
     CountDownTimer countDownTimer_Sit;
 
+    ProgressBar mProgressBarSituation;
+    int progress_status_situation=0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +47,9 @@ public class Situation_Ques extends AppCompatActivity {
         question = (TextView) findViewById(R.id.textView6);
         selected = "";
 
+        mProgressBarSituation=findViewById(R.id.progressbarsituation);
+        mProgressBarSituation.setProgress(progress_status_situation);
+
         current_q = Main4Activity.list_sit.get(qid_sit.getQid_s());
         updateQ();
 
@@ -54,7 +61,10 @@ public class Situation_Ques extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(selected.equals("Yes")) {
+                if (selected.equals("")) {
+                    Toast.makeText(Situation_Ques.this, "Please select something before clicking next.", Toast.LENGTH_SHORT).show();
+                }
+                else if(selected.equals("Yes")) {
                     Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
                     player_sequence.add(0);
                     qid_sit.updateLeft();
@@ -79,23 +89,23 @@ public class Situation_Ques extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        countDownTimer_Sit = new CountDownTimer(30500,1000) {
+        countDownTimer_Sit = new CountDownTimer(60500,1000) {
             @Override
             public void onTick(long l) {
-                if(l/1000<(long)11){
-                    textView2.setTextColor(Color.RED);
-                }
-                else if(l/1000<(long)21){
-                    textView2.setTextColor(Color.rgb(255,204,0));
-                }
-                if(l/1000<(long)10){
-                    textView2.setText("0"+String.valueOf(l/1000)+"s");
-                }
-                else{
-                    textView2.setText(String.valueOf(l/1000)+"s");
+                long time_in_minutes=(l/1000)/60;
+                long time_in_seconds=(l/1000)%60;
+
+                if (time_in_seconds < (long) 10) {
+                    String time="0"+time_in_minutes+":0"+time_in_seconds;
+                    textView2.setText(time);
+                } else {
+                    String time="0"+time_in_minutes+":"+time_in_seconds;
+                    textView2.setText(time);
                 }
 
                 total_time = total_time + 1;
+                progress_status_situation++;
+                mProgressBarSituation.setProgress((int)(progress_status_situation*100/(60000/1000)));
             }
 
             @Override
@@ -120,6 +130,9 @@ public class Situation_Ques extends AppCompatActivity {
                         startActivity(intent);
                     }
                 }
+
+                progress_status_situation++;
+                mProgressBarSituation.setProgress(100);
             }
         }.start();
 

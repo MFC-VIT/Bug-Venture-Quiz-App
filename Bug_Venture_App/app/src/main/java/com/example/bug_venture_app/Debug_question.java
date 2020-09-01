@@ -13,6 +13,7 @@ import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -35,6 +36,8 @@ public class Debug_question extends AppCompatActivity {
     RadioButton rd5, rd6, rd7, rd8;
     String select;
 
+    ProgressBar progressBar;
+    int progress_status = 0;
 
     CountDownTimer countDownTimer;
     QuizQuestion current_question;
@@ -55,6 +58,9 @@ public class Debug_question extends AppCompatActivity {
         question = (TextView) findViewById(R.id.textView7);
         q_no = (TextView) findViewById(R.id.textView);
         select = "";
+
+        progressBar = findViewById(R.id.progressbar);
+        progressBar.setProgress(progress_status);
 
         if(qidStoreDebug.getQ_id() == 3) {
             boolean flag = false;
@@ -94,7 +100,10 @@ public class Debug_question extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (select.equals(current_question.getAnswer())) {
+                if (select.equals("")) {
+                    Toast.makeText(Debug_question.this, "Please enter something before clicking next", Toast.LENGTH_SHORT).show();
+                }
+                else if (select.equals(current_question.getAnswer())) {
                     if(qidStoreDebug.getQ_id() == 0) {
                         Intent intent = new Intent(Debug_question.this, Twist.class);
                         qidStoreDebug.updateQ_id();
@@ -124,21 +133,23 @@ public class Debug_question extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        countDownTimer = new CountDownTimer(30500, 1000) {
+        countDownTimer = new CountDownTimer(60500, 1000) {
             @Override
             public void onTick(long l) {
-                if (l / 1000 < (long) 11) {
-                    textView2.setTextColor(Color.RED);
-                } else if (l / 1000 < (long) 21) {
-                    textView2.setTextColor(Color.rgb(255, 204, 0));
-                }
-                if (l / 1000 < (long) 10) {
-                    textView2.setText("0" + String.valueOf(l / 1000) + "s");
+                long time_in_minutes=(l/1000)/60;
+                long time_in_seconds=(l/1000)%60;
+
+                if (time_in_seconds < (long) 10) {
+                    String time="0"+time_in_minutes+":0"+time_in_seconds;
+                    textView2.setText(time);
                 } else {
-                    textView2.setText(String.valueOf(l / 1000) + "s");
+                    String time="0"+time_in_minutes+":"+time_in_seconds;
+                    textView2.setText(time);
                 }
 
                 total_time = total_time + 1;
+                progress_status++;
+                progressBar.setProgress((int)(progress_status*100/(60000/1000)));
             }
 
             @Override
@@ -159,6 +170,9 @@ public class Debug_question extends AppCompatActivity {
                         startActivity(intent);
                         finish();
                     }
+
+                    progress_status++;
+                    progressBar.setProgress(100);
                 }
             }
         }.start();

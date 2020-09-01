@@ -36,12 +36,12 @@
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_t_t.png.flat",
-        "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/t_t.png"
-    },
-    {
         "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_main4.xml.flat",
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/layout/activity_main4.xml"
+    },
+    {
+        "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_t_t.png.flat",
+        "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/t_t.png"
     },
     {
         "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_situation_next_button.png.flat",
@@ -106,6 +106,10 @@
     {
         "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_situation__ques.xml.flat",
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/layout/activity_situation__ques.xml"
+    },
+    {
+        "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_custom_progress_situation.xml.flat",
+        "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/custom_progress_situation.xml"
     },
     {
         "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
@@ -184,6 +188,10 @@
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/layout/activity_debug_question.xml"
     },
     {
+        "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_timeclock.png.flat",
+        "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/timeclock.png"
+    },
+    {
         "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
@@ -194,6 +202,10 @@
     {
         "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_custom_progress.xml.flat",
+        "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/custom_progress.xml"
     },
     {
         "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_situation_button_theme.png.flat",
