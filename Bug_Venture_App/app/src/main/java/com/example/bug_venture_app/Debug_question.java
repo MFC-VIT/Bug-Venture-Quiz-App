@@ -1,13 +1,8 @@
 package com.example.bug_venture_app;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.res.ColorStateList;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.util.Log;
@@ -18,14 +13,13 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
+
 
 import static com.example.bug_venture_app.Main4Activity.correct_sequence;
 import static com.example.bug_venture_app.Main4Activity.player_sequence;
 import static com.example.bug_venture_app.Main4Activity.qidStoreDebug;
 import static com.example.bug_venture_app.Main4Activity.total_time;
+import static com.example.bug_venture_app.Main4Activity.score;
 
 public class Debug_question extends AppCompatActivity {
 
@@ -108,6 +102,22 @@ public class Debug_question extends AppCompatActivity {
                         Intent intent = new Intent(Debug_question.this, Twist.class);
                         qidStoreDebug.updateQ_id();
                         countDownTimer.cancel();
+                        score++;
+                        startActivity(intent);
+                    }
+                    else {
+                        Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                        qidStoreDebug.updateQ_id();
+                        countDownTimer.cancel();
+                        score++;
+                        startActivity(intent);
+                    }
+
+                } else {
+                    if(qidStoreDebug.getQ_id() == 0) {
+                        Intent intent = new Intent(Debug_question.this, Twist.class);
+                        qidStoreDebug.updateQ_id();
+                        countDownTimer.cancel();
                         startActivity(intent);
                     }
                     else {
@@ -116,10 +126,6 @@ public class Debug_question extends AppCompatActivity {
                         countDownTimer.cancel();
                         startActivity(intent);
                     }
-                } else {
-                    Intent intent = new Intent(Debug_question.this, Time_up.class);
-                    startActivity(intent);
-                    finish();
                 }
 
             }
@@ -156,19 +162,48 @@ public class Debug_question extends AppCompatActivity {
             public void onFinish() {
                 // Also in place of rsAmount.getText.toString() => Change it according to the answer given or not also if given what was given
                 if (select.equals("")) { // BY this if the user has given the wrong answer or not given any answer then he will be out
-                    Intent intent = new Intent(Debug_question.this, Time_up.class); // Here change the activity name for the newQuestion
-                    startActivity(intent);
-                } else {
-                    if(select.equals(current_question.getAnswer())) {
-                        Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                    if(qidStoreDebug.getQ_id() == 0) {
+                        Intent intent = new Intent(Debug_question.this, Twist.class);
                         qidStoreDebug.updateQ_id();
                         countDownTimer.cancel();
                         startActivity(intent);
                     }
                     else {
-                        Intent intent = new Intent(Debug_question.this, Time_up.class);
+                        Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                        qidStoreDebug.updateQ_id();
+                        countDownTimer.cancel();
                         startActivity(intent);
-                        finish();
+                    }
+                } else {
+                    if(select.equals(current_question.getAnswer())) {
+                        if(qidStoreDebug.getQ_id() == 0) {
+                            Intent intent = new Intent(Debug_question.this, Twist.class);
+                            qidStoreDebug.updateQ_id();
+                            countDownTimer.cancel();
+                            score++;
+                            startActivity(intent);
+                        }
+                        else {
+                            Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                            qidStoreDebug.updateQ_id();
+                            countDownTimer.cancel();
+                            score++;
+                            startActivity(intent);
+                        }
+                    }
+                    else {
+                        if(qidStoreDebug.getQ_id() == 0) {
+                            Intent intent = new Intent(Debug_question.this, Twist.class);
+                            qidStoreDebug.updateQ_id();
+                            countDownTimer.cancel();
+                            startActivity(intent);
+                        }
+                        else {
+                            Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                            qidStoreDebug.updateQ_id();
+                            countDownTimer.cancel();
+                            startActivity(intent);
+                        }
                     }
 
                     progress_status++;

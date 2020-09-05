@@ -3,21 +3,20 @@ package com.example.bug_venture_app;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
-import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import static com.example.bug_venture_app.Main4Activity.player_sequence;
-import static com.example.bug_venture_app.Main4Activity.qidStoreDebug;
 import static com.example.bug_venture_app.Main4Activity.qid_sit;
 import static com.example.bug_venture_app.Main4Activity.total_time;
+import static com.example.bug_venture_app.Main4Activity.correct_sequence;
+import static com.example.bug_venture_app.Main4Activity.qidStoreDebug;
 
 public class Situation_Ques extends AppCompatActivity {
 
@@ -111,8 +110,22 @@ public class Situation_Ques extends AppCompatActivity {
             @Override
             public void onFinish() {
                 if (selected.equals("")) { // BY this if the user has given the wrong answer or not given any answer then he will be out
-                    Intent intent = new Intent(Situation_Ques.this, Time_up.class); // Here change the activity name for the newQuestion
-                    startActivity(intent);
+                    int check = correct_sequence.get(QidStoreDebug.getQ_id() - 1);
+                    if(check == 0)
+                    {
+                        Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
+                        player_sequence.add(1);
+                        qid_sit.updateRight();
+                        countDownTimer_Sit.cancel();
+                        startActivity(intent);
+                    }
+                    else {
+                        Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
+                        player_sequence.add(0);
+                        qid_sit.updateRight();
+                        countDownTimer_Sit.cancel();
+                        startActivity(intent);
+                    }
                 } else {
                     if(selected.equals("Yes")) {
                         Intent intent = new Intent(Situation_Ques.this, Debug_question.class);

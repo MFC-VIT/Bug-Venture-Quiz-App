@@ -31,6 +31,7 @@ public class Main4Activity extends AppCompatActivity {
     static List<Integer> correct_sequence;
     static List<Integer> player_sequence;
     static long total_time;
+    static int score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,7 @@ public class Main4Activity extends AppCompatActivity {
         player_sequence = new ArrayList<Integer>();
         init_sequence();
         total_time = 0;
+        score = 0;
 
         question_helper = new Question_Helper(this);
         question_helper.getWritableDatabase();
