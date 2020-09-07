@@ -72,11 +72,13 @@ public class Debug_question extends AppCompatActivity {
                 Intent intent = new Intent(Debug_question.this, Final_Activity.class);
                 startActivity(intent);
                 finish();
+
             }
             else {
                 Intent intent = new Intent(Debug_question.this, completed.class);
                 startActivity(intent);
                 finish();
+
             }
 
         }
@@ -106,7 +108,7 @@ public class Debug_question extends AppCompatActivity {
                         startActivity(intent);
                     }
                     else {
-                        Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                        Intent intent = new Intent(Debug_question.this, Sit_Ques_Disp.class);
                         qidStoreDebug.updateQ_id();
                         countDownTimer.cancel();
                         score++;
@@ -121,7 +123,7 @@ public class Debug_question extends AppCompatActivity {
                         startActivity(intent);
                     }
                     else {
-                        Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                        Intent intent = new Intent(Debug_question.this, Sit_Ques_Disp.class);
                         qidStoreDebug.updateQ_id();
                         countDownTimer.cancel();
                         startActivity(intent);
@@ -162,18 +164,9 @@ public class Debug_question extends AppCompatActivity {
             public void onFinish() {
                 // Also in place of rsAmount.getText.toString() => Change it according to the answer given or not also if given what was given
                 if (select.equals("")) { // BY this if the user has given the wrong answer or not given any answer then he will be out
-                    if(qidStoreDebug.getQ_id() == 0) {
-                        Intent intent = new Intent(Debug_question.this, Twist.class);
-                        qidStoreDebug.updateQ_id();
-                        countDownTimer.cancel();
-                        startActivity(intent);
-                    }
-                    else {
-                        Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
-                        qidStoreDebug.updateQ_id();
-                        countDownTimer.cancel();
-                        startActivity(intent);
-                    }
+                    Intent intent = new Intent(Debug_question.this, Time_up.class);
+                    countDownTimer.cancel();
+                    startActivity(intent);
                 } else {
                     if(select.equals(current_question.getAnswer())) {
                         if(qidStoreDebug.getQ_id() == 0) {
@@ -184,7 +177,7 @@ public class Debug_question extends AppCompatActivity {
                             startActivity(intent);
                         }
                         else {
-                            Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                            Intent intent = new Intent(Debug_question.this, Sit_Ques_Disp.class);
                             qidStoreDebug.updateQ_id();
                             countDownTimer.cancel();
                             score++;
@@ -199,7 +192,7 @@ public class Debug_question extends AppCompatActivity {
                             startActivity(intent);
                         }
                         else {
-                            Intent intent = new Intent(Debug_question.this, Situation_Ques.class);
+                            Intent intent = new Intent(Debug_question.this, Sit_Ques_Disp.class);
                             qidStoreDebug.updateQ_id();
                             countDownTimer.cancel();
                             startActivity(intent);

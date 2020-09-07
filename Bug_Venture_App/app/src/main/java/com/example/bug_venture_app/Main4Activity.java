@@ -25,6 +25,8 @@ public class Main4Activity extends AppCompatActivity {
     static List<QuizQuestion> list;
     static QidStoreDebug qidStoreDebug;
     Question_Helper question_helper;
+    static List<SitOpt> list_op_sit;
+    Sit_Opt_Helper sit_opt_helper;
     static List<QuizQuestionSit> list_sit;
     static Qid_Sit qid_sit;
     Ques_Sit_Helper ques_sit_helper;
@@ -47,15 +49,8 @@ public class Main4Activity extends AppCompatActivity {
         question_helper = new Question_Helper(this);
         question_helper.getWritableDatabase();
 
-        ques_sit_helper = new Ques_Sit_Helper(this);
-        ques_sit_helper.getWritableDatabase();
-
         if(question_helper.getAllOfTheQuestions().size() == 0) {
             question_helper.allQuestion();
-        }
-
-        if(ques_sit_helper.getAllOfTheQuestions().size() == 0) {
-            ques_sit_helper.allQuestion();
         }
 
         if(qidStoreDebug.getQ_id() == 0) {
@@ -63,9 +58,26 @@ public class Main4Activity extends AppCompatActivity {
             Collections.shuffle(list);
         }
 
+        sit_opt_helper = new Sit_Opt_Helper(this);
+        sit_opt_helper.getWritableDatabase();
+
+        if(sit_opt_helper.getAllOfTheQuestions().size() == 0) {
+            sit_opt_helper.allQuestion();
+        }
+
+        ques_sit_helper = new Ques_Sit_Helper(this);
+        ques_sit_helper.getWritableDatabase();
+
+        if(ques_sit_helper.getAllOfTheQuestions().size() == 0) {
+            ques_sit_helper.allQuestion();
+        }
+
         if(qid_sit.getQid_s() == 0) {
+            list_op_sit = sit_opt_helper.getAllOfTheQuestions();
             list_sit = ques_sit_helper.getAllOfTheQuestions();
         }
+
+
 
         play = (Button) findViewById(R.id.button4);
 

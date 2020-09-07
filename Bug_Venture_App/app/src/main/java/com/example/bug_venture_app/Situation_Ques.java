@@ -26,7 +26,8 @@ public class Situation_Ques extends AppCompatActivity {
     TextView textView2, question;
     String selected;
 
-    QuizQuestionSit current_q;
+    //QuizQuestionSit current_q;
+    SitOpt current_op;
     CountDownTimer countDownTimer_Sit;
 
     ProgressBar mProgressBarSituation;
@@ -49,7 +50,8 @@ public class Situation_Ques extends AppCompatActivity {
         mProgressBarSituation=findViewById(R.id.progressbarsituation);
         mProgressBarSituation.setProgress(progress_status_situation);
 
-        current_q = Main4Activity.list_sit.get(qid_sit.getQid_s());
+        //current_q = Main4Activity.list_sit.get(qid_sit.getQid_s());
+        current_op = Main4Activity.list_op_sit.get(qid_sit.getQid_s());
         updateQ();
 
     }
@@ -110,22 +112,9 @@ public class Situation_Ques extends AppCompatActivity {
             @Override
             public void onFinish() {
                 if (selected.equals("")) { // BY this if the user has given the wrong answer or not given any answer then he will be out
-                    int check = correct_sequence.get(QidStoreDebug.getQ_id() - 1);
-                    if(check == 0)
-                    {
-                        Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
-                        player_sequence.add(1);
-                        qid_sit.updateRight();
-                        countDownTimer_Sit.cancel();
-                        startActivity(intent);
-                    }
-                    else {
-                        Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
-                        player_sequence.add(0);
-                        qid_sit.updateRight();
-                        countDownTimer_Sit.cancel();
-                        startActivity(intent);
-                    }
+                    Intent intent = new Intent(Situation_Ques.this, Time_up.class);
+                    countDownTimer_Sit.cancel();
+                    startActivity(intent);
                 } else {
                     if(selected.equals("Yes")) {
                         Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
@@ -172,7 +161,10 @@ public class Situation_Ques extends AppCompatActivity {
     }
 
     public void updateQ() {
-        question.setText(current_q.getQuestion());
+
+        yes.setText(current_op.getOption1());
+        no.setText(current_op.getOption2());
+
     }
 
 }

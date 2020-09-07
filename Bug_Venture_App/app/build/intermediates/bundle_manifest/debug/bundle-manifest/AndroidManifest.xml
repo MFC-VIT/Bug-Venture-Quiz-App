@@ -24,6 +24,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.bug_venture_app.MajorChoice" />
+        <activity android:name="com.example.bug_venture_app.Sit_Ques_Disp" />
         <activity android:name="com.example.bug_venture_app.Twist" />
         <activity android:name="com.example.bug_venture_app.Final_Activity" />
         <activity android:name="com.example.bug_venture_app.completed" />

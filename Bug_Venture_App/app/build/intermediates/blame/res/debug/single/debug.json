@@ -24,6 +24,10 @@
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/yes_not_select.png"
     },
     {
+        "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_sit__ques__disp.xml.flat",
+        "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/layout/activity_sit__ques__disp.xml"
+    },
+    {
         "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
@@ -76,6 +80,10 @@
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/option_debug.png"
     },
     {
+        "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_major_choice.xml.flat",
+        "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/layout/activity_major_choice.xml"
+    },
+    {
         "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
@@ -116,12 +124,12 @@
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_yes_selected.png.flat",
-        "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/yes_selected.png"
-    },
-    {
         "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_login_next_button.png.flat",
         "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/login_next_button.png"
+    },
+    {
+        "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_yes_selected.png.flat",
+        "source": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/yes_selected.png"
     },
     {
         "merged": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_login_back.png.flat",

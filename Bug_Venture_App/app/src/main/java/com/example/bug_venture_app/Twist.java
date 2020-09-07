@@ -22,7 +22,7 @@ public class Twist extends AppCompatActivity {
         nxt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Twist.this, Situation_Ques.class);
+                Intent intent = new Intent(Twist.this, MajorChoice.class);
                 startActivity(intent);
             }
         });

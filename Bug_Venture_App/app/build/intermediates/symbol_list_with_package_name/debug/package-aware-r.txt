@@ -825,6 +825,9 @@ id beginning
 id blocking
 id bottom
 id button
+id button10
+id button11
+id button12
 id button2
 id button3
 id button4
@@ -832,6 +835,7 @@ id button5
 id button6
 id button7
 id button8
+id button9
 id buttonPanel
 id center_vertical
 id chains
@@ -976,6 +980,7 @@ id textView10
 id textView11
 id textView12
 id textView13
+id textView14
 id textView2
 id textView3
 id textView4
@@ -1048,6 +1053,8 @@ layout activity_main
 layout activity_main2
 layout activity_main3
 layout activity_main4
+layout activity_major_choice
+layout activity_sit__ques__disp
 layout activity_situation__ques
 layout activity_time_up
 layout activity_twist
