@@ -12,7 +12,7 @@ import java.util.List;
 
 public class Sit_Opt_Helper extends SQLiteOpenHelper{
     private Context context;
-    private static final String DB_NAME = "OP_ST.db";
+    private static final String DB_NAME = "OP_ST1.db";
     private static final int DB_VERSION = 3;
     private static final String TABLE_NAME = "OPTION_SIT";
     private static final String UID = "_UID";

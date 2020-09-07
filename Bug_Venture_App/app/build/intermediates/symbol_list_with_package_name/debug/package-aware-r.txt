@@ -864,6 +864,7 @@ id expand_activities_button
 id expanded_menu
 id forever
 id frameLayout
+id frameLayoutchoice
 id gone
 id group_divider
 id groups
@@ -888,6 +889,7 @@ id imageView19
 id imageView2
 id imageView20
 id imageView21
+id imageView23
 id imageView3
 id imageView4
 id imageView5
@@ -922,6 +924,7 @@ id percent
 id progress_circular
 id progress_horizontal
 id progressbar
+id progressbarchoice
 id progressbarsituation
 id radio
 id radioButton5
@@ -936,6 +939,7 @@ id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id search_badge
 id search_bar
 id search_button
@@ -981,6 +985,8 @@ id textView11
 id textView12
 id textView13
 id textView14
+id textView15
+id textView16
 id textView2
 id textView3
 id textView4
@@ -990,6 +996,7 @@ id textView7
 id textView8
 id textView9
 id time
+id time_choice
 id time_deb
 id time_sit
 id title
