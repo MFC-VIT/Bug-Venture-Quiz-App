@@ -56,7 +56,7 @@ public class Debug_question extends AppCompatActivity {
         progressBar = findViewById(R.id.progressbar);
         progressBar.setProgress(progress_status);
 
-        if(qidStoreDebug.getQ_id() == 3) {
+        if(qidStoreDebug.getQ_id() == 5) {
             boolean flag = false;
             for(int i = 0; i < 3; i++) {
                 if(correct_sequence.get(i) == player_sequence.get(i)) {

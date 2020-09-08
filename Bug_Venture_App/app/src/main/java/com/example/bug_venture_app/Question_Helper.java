@@ -12,7 +12,7 @@ import java.util.List;
 public class Question_Helper extends SQLiteOpenHelper{
 
     private Context context;
-    private static final String DB_NAME = "Quiz11.db";
+    private static final String DB_NAME = "Quiz12.db";
     private static final int DB_VERSION = 3;
     private static final String TABLE_NAME = "Quiz_Questions";
     private static final String UID = "_UID";
@@ -50,6 +50,20 @@ public class Question_Helper extends SQLiteOpenHelper{
         arraylist.add(new QuizQuestion("Who is the father of Geometry ?", "Aristotle", "Euclid", "Pythagoras", "Kepler", "Euclid"));
 
         arraylist.add(new QuizQuestion("Who was known as Iron man of India ?", "Govind Ballabh Pant", "Jawaharlal Nehru", "Subhash Chandra Bose", "Sardar Vallabhbhai Patel", "Sardar Vallabhbhai Patel"));
+
+        arraylist.add(new QuizQuestion("The Indian to beat the computers in mathematical wizardry is", "Ramanujam", "Rina Panigrahi", "Raja Ramanna", "Shakunthala Devi", "Shakunthala Devi"));
+
+        arraylist.add(new QuizQuestion("Who is Larry Pressler ?", "Politician", "Painter", "Actor", "Tennis player", "Politician"));
+
+        arraylist.add(new QuizQuestion("Michael Jackson is a distinguished person in the field of ?", "Pop Music", "Jounalism", "Sports", "Acting", "Pop Music"));
+
+        arraylist.add(new QuizQuestion("The first Indian to swim across English channel was ?", "V. Merchant", "P. K. Banerji", "Mihir Sen", "Arati Saha", "Mihir Sen"));
+
+        arraylist.add(new QuizQuestion("Who was the first Indian to make a movie?", "Dhundiraj Govind Phalke", " Asha Bhonsle", " Ardeshir Irani", "V. Shantaram", "Dhundiraj Govind Phalke"));
+
+        arraylist.add(new QuizQuestion("Who is known as the ' Saint of the gutters ?", "B.R.Ambedkar", "Mother Teresa", "Mahatma Gandhi", "Baba Amte", "Mother Teresa"));
+
+        arraylist.add(new QuizQuestion("Who invented the famous formula E=mc^2", "Albert Einstein", "Galilio", "Stephen Hawking", "Bill Gates", "Albert Einstein"));
 
         this.addAllQuestions(arraylist);
     }

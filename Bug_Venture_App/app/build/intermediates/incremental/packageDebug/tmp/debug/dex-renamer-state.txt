@@ -1,7 +1,7 @@
-#Mon Sep 07 19:48:22 IST 2020
-base.0=E\:\\Club\\Bug_Venture_App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Tue Sep 08 09:06:35 IST 2020
+base.0=/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=E\:\\Club\\Bug_Venture_App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex
