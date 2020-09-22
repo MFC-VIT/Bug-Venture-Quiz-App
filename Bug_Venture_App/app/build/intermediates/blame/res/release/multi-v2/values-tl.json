@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/kaustubh/Desktop/app Project/Quiz_Game/Bug_Venture_App/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-tl/values-tl.xml",
+            "outputFile": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "/home/kaustubh/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/res/values-tl/values.xml",

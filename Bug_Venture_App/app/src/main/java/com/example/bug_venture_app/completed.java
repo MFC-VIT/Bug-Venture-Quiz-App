@@ -17,10 +17,12 @@ import java.util.Random;
 import static com.example.bug_venture_app.Main3Activity.e_Mail;
 import static com.example.bug_venture_app.Main4Activity.total_time;
 import static com.example.bug_venture_app.Main4Activity.score;
+import static com.example.bug_venture_app.Main4Activity.score_t;
 
 public class completed extends AppCompatActivity {
 
     TextView e_mail, u_code, time;
+    int score_1;
 
     @SuppressLint("SetTextI18n")
     @RequiresApi(api = Build.VERSION_CODES.N)
@@ -35,6 +37,7 @@ public class completed extends AppCompatActivity {
         e_mail = findViewById(R.id.textView8);
         u_code = findViewById(R.id.textView10);
         time = findViewById(R.id.textView11);
+        score_1 = score_t.getTotal();
 
         e_mail.setText(e_Mail);
         random_code_generator();
@@ -59,10 +62,10 @@ public class completed extends AppCompatActivity {
 
         if(score == 10)
         {
-            u_code.setText(generatedString + score);
+            u_code.setText(generatedString + score_1);
         }
         else {
-            u_code.setText(generatedString + "0" + score);
+            u_code.setText(generatedString + "0" + score_1);
         }
     }
 

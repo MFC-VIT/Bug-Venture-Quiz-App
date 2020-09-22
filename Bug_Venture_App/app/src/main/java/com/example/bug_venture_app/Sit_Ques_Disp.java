@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import static com.example.bug_venture_app.Main4Activity.qid_sit;
 
@@ -35,5 +36,10 @@ public class Sit_Ques_Disp extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        Toast.makeText(this, "You cannot go back!", Toast.LENGTH_SHORT).show();
     }
 }

@@ -68,11 +68,13 @@ public class MajorChoice extends AppCompatActivity {
                 if(select.equals("detective")) {
                     qid_sit.updateLeft();
                     Intent intent = new Intent(MajorChoice.this, Debug_question.class);
+                    countDownTimer_Choice.cancel();
                     startActivity(intent);
                 }
                 else if (select.equals("soldier")) {
                     qid_sit.updateRight();
                     Intent intent = new Intent(MajorChoice.this, Debug_question.class);
+                    countDownTimer_Choice.cancel();
                     startActivity(intent);
                 }
                 else if (select.equals("")) {

@@ -703,6 +703,7 @@ drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable custom_progress
 drawable custom_progress_situation
+drawable custom_scroll_bar
 drawable debug_option_background
 drawable email_
 drawable googleg_disabled_color_18

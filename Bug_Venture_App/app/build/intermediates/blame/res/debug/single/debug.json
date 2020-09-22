@@ -20,6 +20,10 @@
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/layout/activity_main4.xml"
     },
     {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_custom_scroll_bar.xml.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/custom_scroll_bar.xml"
+    },
+    {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_option_debug1.png.flat",
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/option_debug1.png"
     },

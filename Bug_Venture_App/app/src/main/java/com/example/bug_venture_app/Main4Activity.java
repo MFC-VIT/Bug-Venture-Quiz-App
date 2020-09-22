@@ -34,6 +34,7 @@ public class Main4Activity extends AppCompatActivity {
     static List<Integer> player_sequence;
     static long total_time;
     static int score;
+    static score score_t;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

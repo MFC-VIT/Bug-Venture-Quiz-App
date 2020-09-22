@@ -20,6 +20,7 @@ import static com.example.bug_venture_app.Main4Activity.player_sequence;
 import static com.example.bug_venture_app.Main4Activity.qidStoreDebug;
 import static com.example.bug_venture_app.Main4Activity.total_time;
 import static com.example.bug_venture_app.Main4Activity.score;
+import static com.example.bug_venture_app.Main4Activity.score_t;
 
 public class Debug_question extends AppCompatActivity {
 
@@ -105,6 +106,7 @@ public class Debug_question extends AppCompatActivity {
                         qidStoreDebug.updateQ_id();
                         countDownTimer.cancel();
                         score++;
+                        score_t.increment();
                         startActivity(intent);
                     }
                     else {
@@ -112,6 +114,7 @@ public class Debug_question extends AppCompatActivity {
                         qidStoreDebug.updateQ_id();
                         countDownTimer.cancel();
                         score++;
+                        score_t.increment();
                         startActivity(intent);
                     }
 
@@ -174,6 +177,7 @@ public class Debug_question extends AppCompatActivity {
                             qidStoreDebug.updateQ_id();
                             countDownTimer.cancel();
                             score++;
+                            score_t.increment();
                             startActivity(intent);
                         }
                         else {
@@ -181,6 +185,7 @@ public class Debug_question extends AppCompatActivity {
                             qidStoreDebug.updateQ_id();
                             countDownTimer.cancel();
                             score++;
+                            score_t.increment();
                             startActivity(intent);
                         }
                     }

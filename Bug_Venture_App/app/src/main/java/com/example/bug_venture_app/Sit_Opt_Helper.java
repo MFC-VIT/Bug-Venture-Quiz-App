@@ -12,7 +12,7 @@ import java.util.List;
 
 public class Sit_Opt_Helper extends SQLiteOpenHelper{
     private Context context;
-    private static final String DB_NAME = "OP_ST2.db";
+    private static final String DB_NAME = "OP_ST3.db";
     private static final int DB_VERSION = 3;
     private static final String TABLE_NAME = "OPTION_SIT";
     private static final String UID = "_UID";
@@ -41,11 +41,17 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         ArrayList<SitOpt> arrayList = new ArrayList<>();
 
         arrayList.add(new SitOpt("option1", "option2"));
+
         arrayList.add(new SitOpt("Commit Crime", "Trust Det. give time"));
+
         arrayList.add(new SitOpt("sol1", "sol2"));
+
         arrayList.add(new SitOpt("abort mission save wife", "complete mission by kidnapper"));
+
         arrayList.add(new SitOpt("Take Det's suggestion", "commit real crime"));
+
         arrayList.add(new SitOpt("sol2", "sol2"));
+
         arrayList.add(new SitOpt("sol3", "sol3"));
         arrayList.add(new SitOpt("Take Det's suggestion", "commit real crime"));
         arrayList.add(new SitOpt("ask Det. to wait near trash can & catch kidnapper?", "ask the Det. to wait near trash can & catch the kidnapper"));
