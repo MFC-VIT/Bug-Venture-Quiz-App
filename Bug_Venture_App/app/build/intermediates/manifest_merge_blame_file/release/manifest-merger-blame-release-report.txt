@@ -25,7 +25,7 @@
 15-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
 16
 17    <application
-17-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:5:5-30:19
+17-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:5:5-32:19
 18        android:allowBackup="true"
 18-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -40,151 +40,157 @@
 23-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:10:9-35
 24        android:theme="@style/AppTheme" >
 24-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:11:9-40
-25        <activity android:name="com.example.bug_venture_app.MajorChoice" />
-25-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:12:9-58
-25-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:12:19-46
-26        <activity android:name="com.example.bug_venture_app.Sit_Ques_Disp" />
-26-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:13:9-51
-26-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:13:19-48
-27        <activity android:name="com.example.bug_venture_app.Twist" />
-27-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:14:9-43
-27-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:14:19-40
-28        <activity android:name="com.example.bug_venture_app.Final_Activity" />
-28-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:15:9-52
-28-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:15:19-49
-29        <activity android:name="com.example.bug_venture_app.completed" />
-29-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:16:9-47
-29-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:16:19-44
-30        <activity android:name="com.example.bug_venture_app.Time_up" />
-30-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:17:9-45
-30-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:17:19-42
-31        <activity android:name="com.example.bug_venture_app.Debug_question" />
-31-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:18:9-52
-31-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:18:19-49
-32        <activity android:name="com.example.bug_venture_app.Situation_Ques" />
-32-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:19:9-52
-32-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:19:19-49
-33        <activity android:name="com.example.bug_venture_app.Main4Activity" />
-33-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:20:9-51
-33-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:20:19-48
-34        <activity android:name="com.example.bug_venture_app.Main3Activity" />
-34-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:21:9-51
-34-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:21:19-48
-35        <activity android:name="com.example.bug_venture_app.Main2Activity" />
+25        <activity android:name="com.example.bug_venture_app.army_description" />
+25-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:12:9-63
+25-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:12:19-51
+26        <activity android:name="com.example.bug_venture_app.detective_description" />
+26-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:13:9-59
+26-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:13:19-56
+27        <activity android:name="com.example.bug_venture_app.MajorChoice" />
+27-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:14:9-49
+27-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:14:19-46
+28        <activity android:name="com.example.bug_venture_app.Sit_Ques_Disp" />
+28-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:15:9-51
+28-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:15:19-48
+29        <activity android:name="com.example.bug_venture_app.Twist" />
+29-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:16:9-43
+29-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:16:19-40
+30        <activity android:name="com.example.bug_venture_app.Final_Activity" />
+30-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:17:9-52
+30-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:17:19-49
+31        <activity android:name="com.example.bug_venture_app.completed" />
+31-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:18:9-47
+31-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:18:19-44
+32        <activity android:name="com.example.bug_venture_app.Time_up" />
+32-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:19:9-45
+32-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:19:19-42
+33        <activity android:name="com.example.bug_venture_app.Debug_question" />
+33-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:20:9-52
+33-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:20:19-49
+34        <activity android:name="com.example.bug_venture_app.Situation_Ques" />
+34-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:21:9-52
+34-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:21:19-49
+35        <activity android:name="com.example.bug_venture_app.Main4Activity" />
 35-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:22:9-51
 35-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:22:19-48
-36        <activity android:name="com.example.bug_venture_app.MainActivity" >
-36-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:23:9-29:20
-36-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:23:19-47
-37            <intent-filter>
-37-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:24:13-28:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:25:17-69
-38-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:25:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:27:17-77
-40-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:27:27-74
-41            </intent-filter>
-42        </activity>
-43        <activity
-43-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:24:9-31:50
-44            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-44-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:25:13-85
-45            android:excludeFromRecents="true"
-45-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:26:13-46
-46            android:exported="true"
-46-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:27:13-36
-47            android:launchMode="singleTask"
-47-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:28:13-44
-48            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-48-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:29:13-102
-49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-49-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:30:13-72
-50
-51        <service
-51-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:33:9-39:19
-52            android:name="com.google.firebase.components.ComponentDiscoveryService"
-52-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:34:13-84
-53            android:directBootAware="true"
-53-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
-54            android:exported="false" >
-54-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:35:13-37
-55            <meta-data
-55-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:36:13-38:85
-56                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-56-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:37:17-109
-57                android:value="com.google.firebase.components.ComponentRegistrar" />
-57-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:38:17-82
-58            <meta-data
-58-->[com.google.android.gms:play-services-measurement-api:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
-59                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-59-->[com.google.android.gms:play-services-measurement-api:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
-60                android:value="com.google.firebase.components.ComponentRegistrar" />
-60-->[com.google.android.gms:play-services-measurement-api:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
-61            <meta-data
-61-->[com.google.firebase:firebase-installations:16.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/4d2d6e18a23e71677122246f9e56e667/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
-62                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-62-->[com.google.firebase:firebase-installations:16.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/4d2d6e18a23e71677122246f9e56e667/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
-63                android:value="com.google.firebase.components.ComponentRegistrar" />
-63-->[com.google.firebase:firebase-installations:16.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/4d2d6e18a23e71677122246f9e56e667/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
-64        </service>
-65
-66        <activity
-66-->[com.google.android.gms:play-services-base:17.1.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-67-->[com.google.android.gms:play-services-base:17.1.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-68            android:exported="false"
-68-->[com.google.android.gms:play-services-base:17.1.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-69-->[com.google.android.gms:play-services-base:17.1.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-70
-71        <receiver
-71-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
-72            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-72-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
-73            android:enabled="true"
-73-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
-74            android:exported="false" >
-74-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
-75        </receiver>
-76
-77        <service
-77-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
-78            android:name="com.google.android.gms.measurement.AppMeasurementService"
-78-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
-79            android:enabled="true"
-79-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
-80            android:exported="false" />
-80-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
-81        <service
-81-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
-82            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-82-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
-83            android:enabled="true"
-83-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
-84            android:exported="false"
-84-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
-85            android:permission="android.permission.BIND_JOB_SERVICE" />
-85-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
-86
-87        <provider
-87-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-88            android:name="com.google.firebase.provider.FirebaseInitProvider"
-88-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-89            android:authorities="com.example.bug_venture_app.firebaseinitprovider"
-89-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
-90            android:exported="false"
-90-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-91            android:initOrder="100" />
-91-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
-92
-93        <meta-data
-93-->[com.google.android.gms:play-services-basement:17.0.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-94            android:name="com.google.android.gms.version"
-94-->[com.google.android.gms:play-services-basement:17.0.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-95            android:value="@integer/google_play_services_version" />
-95-->[com.google.android.gms:play-services-basement:17.0.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-96    </application>
-97
-98</manifest>
+36        <activity android:name="com.example.bug_venture_app.Main3Activity" />
+36-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:23:9-51
+36-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:23:19-48
+37        <activity android:name="com.example.bug_venture_app.Main2Activity" />
+37-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:24:9-51
+37-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:24:19-48
+38        <activity android:name="com.example.bug_venture_app.MainActivity" >
+38-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:25:9-31:20
+38-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:25:19-47
+39            <intent-filter>
+39-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:26:13-30:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:27:17-69
+40-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:27:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:29:17-77
+42-->/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/AndroidManifest.xml:29:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:24:9-31:50
+46            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+46-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:25:13-85
+47            android:excludeFromRecents="true"
+47-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:26:13-46
+48            android:exported="true"
+48-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:27:13-36
+49            android:launchMode="singleTask"
+49-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:28:13-44
+50            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+50-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:29:13-102
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+51-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:30:13-72
+52
+53        <service
+53-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:33:9-39:19
+54            android:name="com.google.firebase.components.ComponentDiscoveryService"
+54-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:34:13-84
+55            android:directBootAware="true"
+55-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+56            android:exported="false" >
+56-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:35:13-37
+57            <meta-data
+57-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:36:13-38:85
+58                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+58-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:37:17-109
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-auth:19.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/16a303518ddb9c4f6d04d81a3a04d0b3/jetified-firebase-auth-19.3.2/AndroidManifest.xml:38:17-82
+60            <meta-data
+60-->[com.google.android.gms:play-services-measurement-api:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
+61                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+61-->[com.google.android.gms:play-services-measurement-api:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.android.gms:play-services-measurement-api:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/35f10b9aa3282e0c4ce3ae644ab33b75/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-installations:16.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/4d2d6e18a23e71677122246f9e56e667/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+64                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+64-->[com.google.firebase:firebase-installations:16.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/4d2d6e18a23e71677122246f9e56e667/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-installations:16.3.2] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/4d2d6e18a23e71677122246f9e56e667/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+66        </service>
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:17.1.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:17.1.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:17.1.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:17.1.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+72
+73        <receiver
+73-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
+74            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+74-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
+75            android:enabled="true"
+75-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
+76            android:exported="false" >
+76-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
+77        </receiver>
+78
+79        <service
+79-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
+80            android:name="com.google.android.gms.measurement.AppMeasurementService"
+80-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
+81            android:enabled="true"
+81-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
+82            android:exported="false" />
+82-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
+83        <service
+83-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
+84            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+84-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
+85            android:enabled="true"
+85-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
+87            android:permission="android.permission.BIND_JOB_SERVICE" />
+87-->[com.google.android.gms:play-services-measurement:17.5.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/58a41218ea342964128b5404cfbbd677/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
+88
+89        <provider
+89-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+90            android:name="com.google.firebase.provider.FirebaseInitProvider"
+90-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+91            android:authorities="com.example.bug_venture_app.firebaseinitprovider"
+91-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+92            android:exported="false"
+92-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+93            android:initOrder="100" />
+93-->[com.google.firebase:firebase-common:19.3.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:17.0.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:17.0.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:17.0.0] /home/kaustubh/.gradle/caches/transforms-2/files-2.1/f258e3825c6af3b14c7ec1616fae4742/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+98    </application>
+99
+100</manifest>

@@ -22,6 +22,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.bug_venture_app.army_description" />
+        <activity android:name="com.example.bug_venture_app.detective_description" />
         <activity android:name="com.example.bug_venture_app.MajorChoice" />
         <activity android:name="com.example.bug_venture_app.Sit_Ques_Disp" />
         <activity android:name="com.example.bug_venture_app.Twist" />

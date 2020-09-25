@@ -71,15 +71,14 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         arraylist.add(new QuizQuestionSit("When guards confront Mrs. Pooja Verma, she says that she was recording her husband and not the person and he is saved. They finally abort the mission and get home safely.\n" +
                 "There is another parcel received from the angry kidnapper with blood soaked clothes of Ria and a warning which says that the next task is due tomorrow and if it is not accomplished then the next parcel will have Ria’s corpse in it.\n" +
                 "\nDetective Pradyuman suggests that for this task, instead of committing the crime for real, you can talk to the target and convince him to help them by being a part of a play where he acts to be killed by the couple for the video. But the detective also warns that there might be eyes following you and there is a very high risk of being noticed by the kidnapper and he might kill Ria.\n" +
-                "\n" +
-                "As Mr. Verma what will you choose\n"));
+                "\n"));
         //8
         arraylist.add(new QuizQuestionSit("The bodyguards are distracted and the couple make a safe escape with the mission done.\n" +
-                " now the video tape is to be left in a trash can for the kidnapper. \n"));
+                " Now the video tape is to be left in a trash can for the kidnapper. \n" + "Pradyuman stays near the trash can  and notices that the person who came to pick up the tapes did not have a left hand. He doubts that Mr. Verma being a hand surgeon might have a medical history with the kidnapper and asks him to show his entire patient records. But releasing the records can end his career and he can lose his medical license as well as face a sentence for releasing confidential patient records."));
         //9
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Parents talk to the victim for orchestrating his fake death, and the crime goes as planned. Victim fakes his death and Mrs.Verma successfully records the entire scene. They drop the recording in a trash can nearby as per the kidnapper’s instructions. Detective Pradyuman stays at the crime scene and notices that the person who came to pick up the tapes did not have a left hand. He doubts that Mr. Verma being a hand surgeon might have a medical history with the kidnapper and asks him to show his entire patient records. But releasing the records can end his career and he can lose his medical license as well as face a sentence for releasing confidential patient records."));
         //10
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Parents complete the crime as per the instructions of the kidnapper and leave the video tapes in the dustbin. This time detective stays at the crime scene to observe the man who comes to pick up the tapes. He notices that the man who comes to receive the tapes does not have a left hand. He asks the Mr. Verma to show his entire patient records as he doubts there is some medical history between him and the kidnapper as Mr. Verma is a specialised hand surgeon. But releasing the records can end his career and he can lose his medical license as well as face a sentence for releasing confidential patient records."));
         //11
         arraylist.add(new QuizQuestionSit("You decide to investigate further and go to the police station. The police mentions that Pooja has already been here 5-6 times in past 2 months and have already told her not to bother them with the fake complaints any more. The police also denies existence of the child. Desperate Pooja asks you to commit the crime once again."));
         //12
@@ -94,20 +93,19 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         //16
         arraylist.add(new QuizQuestionSit("Parents complete the crime as per the instructions of the kidnapper and leave the video tapes in the dustbin. This time detective stays at the crime scene to observe the man who comes to pick up the tapes. He notices that the man who comes to receive the tapes does not have a hand. He asks the Mr. Verma to show his entire patient records as he doubts there is some medical history between him and the kidnapper. But releasing the records can end his career and he can lose his medical license as well as face a sentence for releasing confidential patient records. As Mr.Verma what will you choose?\n"));
         //17
-        arraylist.add(new QuizQuestionSit("A kid comes to pick the tape and when the detective follows the kid, the kid is pulled into a van and the detective was fired upon by a gun.\n" +
-                "The detective is very scared and says that he won’t be able to continue with the job. \n" +
-                "While this discussion Another parcel is received from the kidnapper in which there are blood soaked clothes of the child with the next task and a warning that says get rid of the detective and do not act smart or else it will the child’s corpse next time. \n"));
+        arraylist.add(new QuizQuestionSit("Upon receiving records from the father, Detective Pradyuman notices a similarity between kidnapper and Rhea’s maternal Grandfather (NanaJi). Mr. Pradyuman advices to arrange a fake funeral so that the kidnapper reacts to it somehow which might give the detective some leads. Meanwhile the kidnapper sends another parcel. "));
         //18
-        arraylist.add(new QuizQuestionSit("The kidnapper notices that you are waiting there, so he did not come.\n" +
-                "The angry kidnapper sends another parcel which says that now the wife has to kill the husband or else the child is dead.\n"));
+        arraylist.add(new QuizQuestionSit("Mr. Pradyuman advices to arrange the fake funeral so that the kidnapper reacts to it somehow. \n" +
+                "Meanwhile the kidnapper sends another parcel.\n"));
         //19
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Upon receiving records from the father, Detective Pradyuman notices a similarity between kidnapper and Rhea’s maternal Grandfather (NanaJi). Mr. Pradyuman advices to arrange a fake funeral so that the kidnapper reacts to it somehow which might give the detective some leads. Meanwhile the kidnapper sends another parcel."));
         //20
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Mr. Pradyuman advices to arrange the fake funeral so that the kidnapper reacts to it somehow. \n Meanwhile the kidnapper sends another parcel."));
         //21
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Upon receiving records from the father, Detective Pradyuman notices a similarity between kidnapper and Rhea’s maternal Grandfather (NanaJi). Mr. Pradyuman advices to arrange a fake funeral so that the kidnapper reacts to it somehow which might give the detective some leads. Meanwhile the kidnapper sends another parcel."));
         //22
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Mr. Pradyuman advices to arrange the fake funeral so that the kidnapper reacts to it somehow. \n" +
+                "Meanwhile the kidnapper sends another parcel.\n"));
         //23
         arraylist.add(new QuizQuestionSit("You go to the child’s school to investigate. You describe Rhea to the school principal and the principal claims there is no kid like that. Disappointed, you make your way out. On your way out, a school teacher who overheard your conversation tells you that there is another kid with the same description but her mother is not the one you claim."));
         //24
@@ -133,7 +131,10 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         //34
         arraylist.add(new QuizQuestionSit("Mr. Pradyuman advices to arrange the fake funeral so that the kidnapper reacts to it somehow. \n" + "Meanwhile the kidnapper sends another parcel. As Mr.Verma what will you choose?\n"));
         //35
-        arraylist.add(new QuizQuestionSit("The detective suggests that for this task, instead of committing the crime for real, you can talk to the target and convince him to help them by being a part of a play where he acts to be killed by the couple for the video. But the detective also warns that there might be eyes following you and there is a very high risk\n"));
+        arraylist.add(new QuizQuestionSit("Parcel contains Two envelopes with following notes on them: \n" +
+                "1. Commit the final crime but if you choose to do so you cannot back out at any cost\n" +
+                "2. Do not commit any crime, but if you choose to do so there will be hard consequences.\n" +
+                "There is a note which says that you can only choose to open anyone of the envelopes. If the instructions are not followed carefully then one of your family member will have to face the consequences consequences.\n"));
         //36
         arraylist.add(new QuizQuestionSit("Question"));
         //37
@@ -141,21 +142,45 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         //38
         arraylist.add(new QuizQuestionSit("Question"));
         //39
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Parcel contains Two envelopes with following notes on them: \n" +
+                "1. Commit the final crime but if you choose to do so you cannot back out at any cost\n" +
+                "2. Do not commit any crime, but if you choose to do so there will be hard consequences.\n" +
+                "There is a note which says that you can only choose to open anyone of the envelopes. If the instructions are not followed carefully then one of your family member will have to face the consequences.\n"));
         //40
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Once the funeral is over, Another parcel is found at the doorstep of their house but this time there's a bomb attached to it connected with a sensor, which can only be defused if the person opens any one of the envelopes inside the parcel within 30 secs and if they tried to open both or none then the bomb will detonate.\n" +
+                "The two envelopes have the following notes on them: \n" +
+                "1. Commit the final crime but if you choose to do so you cannot back out at any cost\n" +
+                "2. Do not commit any crime, but if you choose to do so there will be hard consequences.\n"));
         //41
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Parcel contains Two envelopes with following notes on them: \n" +
+                "1. Commit the final crime but if you choose to do so you cannot back out at any cost\n" +
+                "2. Do not commit any crime, but if you choose to do so there will be hard consequences.\n" +
+                "There is a note which says that you can only choose to open anyone of the envelopes. If the instructions are not followed carefully then one of your family member will have to face the consequences.\n"));
         //42
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Once the funeral is over, Another parcel is found at the doorstep of their house but this time there's a bomb attached to it connected with a sensor, which can only be defused if the person opens any one of the envelopes inside the parcel within 30 secs and if they tried to open both or none then the bomb will detonate.\n" +
+                "The two envelopes have the following notes on them: \n" +
+                "1. Commit the final crime but if you choose to do so you cannot back out at any cost\n" +
+                "2. Do not commit any crime, but if you choose to do so there will be hard consequences.\n"));
         //43
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Parcel contains Two envelopes with following notes on them: \n" +
+                "1. Commit the final crime but if you choose to do so you cannot back out at any cost\n" +
+                "2. Do not commit any crime, but if you choose to do so there will be hard consequences.\n" +
+                "There is a note which says that you can only choose to open anyone of the envelopes. If the instructions are not followed carefully then one of your family member will have to face the consequences consequences.\n"));
         //44
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Once the funeral is over, Another parcel is found at the doorstep of their house but this time there's a bomb attached to it connected with a sensor, which can only be defused if the person opens any one of the envelopes inside the parcel within 30 secs and if they tried to open both or none then the bomb will detonate.\n" +
+                "The two envelopes have the following notes on them: \n" +
+                "1. Commit the final crime but if you choose to do so you cannot back out at any cost\n" +
+                "2. Do not commit any crime, but if you choose to do so there will be hard consequences.\n"));
         //45
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Parcel contains Two envelopes with following notes on them: \n" +
+                "1. Commit the final crime but if you choose to do so you cannot back out at any cost\n" +
+                "2. Do not commit any crime, but if you choose to do so there will be hard consequences.\n" +
+                "There is a note which says that you can only choose to open anyone of the envelopes. If the instructions are not followed carefully then one of your family member will have to face the consequences consequences.\n"));
         //46
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Once the funeral is over, Another parcel is found at the doorstep of their house but this time there's a bomb attached to it connected with a sensor, which can only be defused if the person opens any one of the envelopes inside the parcel within 30 secs and if they tried to open both or none then the bomb will detonate.\n" +
+                "The two envelopes have the following notes on them: \n" +
+                "1. Commit the final crime but if you choose to do so you cannot back out at any cost\n" +
+                "2. Do not commit any crime, but if you choose to do so there will be hard consequences.\n"));
         //47
         arraylist.add(new QuizQuestionSit("Question"));
         //48
@@ -230,37 +255,37 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         //78
         arraylist.add(new QuizQuestionSit("Question"));
         //79
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("As the part of your final crime, you have to choose between your daughter Rhea or your husband Mr. Verma. Choosing any of the one will mean that you have to kill the other. "));
         //80
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Choosing not to commit any crime doesn’t mean you are going to have an happy ending. But there’s still a chance to save one of your family member. It’s your call who will you choose? Remember that the other one has to die in order to save the one you chose."));
         //81
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("As the part of your final crime, you have to choose between your daughter Rhea or your husband Mr. Verma. Choosing any of the one will mean that you have to kill the other. "));
         //82
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Choosing not to commit any crime doesn’t mean you are going to have an happy ending. But there’s still a chance to save one of your family member. It’s your call who will you choose? Remember that the other one has to die in order to save the one you chose."));
         //83
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("As the part of your final crime, you have to choose between your daughter Rhea or your husband Mr. Verma. Choosing any of the one will mean that you have to kill the other. "));
         //84
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Choosing not to commit any crime doesn’t mean you are going to have an happy ending. But there’s still a chance to save one of your family member. It’s your call who will you choose? Remember that the other one has to die in order to save the one you chose."));
         //85
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("As the part of your final crime, you have to choose between your daughter Rhea or your husband Mr. Verma. Choosing any of the one will mean that you have to kill the other. "));
         //86
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Choosing not to commit any crime doesn’t mean you are going to have an happy ending. But there’s still a chance to save one of your family member. It’s your call who will you choose? Remember that the other one has to die in order to save the one you chose."));
         //87
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("As the part of your final crime, you have to choose between your daughter Rhea or your husband Mr. Verma. Choosing any of the one will mean that you have to kill the other."));
         //88
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Choosing not to commit any crime doesn’t mean you are going to have an happy ending. But there’s still a chance to save one of your family member. It’s your call who will you choose? Remember that the other one has to die in order to save the one you chose."));
         //89
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("As the part of your final crime, you have to choose between your daughter Rhea or your husband Mr. Verma. Choosing any of the one will mean that you have to kill the other."));
         //90
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Choosing not to commit any crime doesn’t mean you are going to have an happy ending. But there’s still a chance to save one of your family member. It’s your call who will you choose? Remember that the other one has to die in order to save the one you chose."));
         //91
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("As the part of your final crime, you have to choose between your daughter Rhea or your husband Mr. Verma. Choosing any of the one will mean that you have to kill the other."));
         //92
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Choosing not to commit any crime doesn’t mean you are going to have an happy ending. But there’s still a chance to save one of your family member. It’s your call who will you choose? Remember that the other one has to die in order to save the one you chose."));
         //93
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("As the part of your final crime, you have to choose between your daughter Rhea or your husband Mr. Verma. Choosing any of the one will mean that you have to kill the other."));
         //94
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Choosing not to commit any crime doesn’t mean you are going to have an happy ending. But there’s still a chance to save one of your family member. It’s your call who will you choose? Remember that the other one has to die in order to save the one you chose."));
         //95
         arraylist.add(new QuizQuestionSit("Question"));
         //96

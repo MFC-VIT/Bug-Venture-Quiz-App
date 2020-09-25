@@ -8,12 +8,28 @@
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_maj_c.png.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/maj_c.png"
+    },
+    {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_detect.png.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/detect.png"
+    },
+    {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_make_c.png.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/make_c.png"
+    },
+    {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_debug_option_background.png.flat",
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/debug_option_background.png"
     },
     {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_army_description.xml.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/layout/activity_army_description.xml"
     },
     {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_main4.xml.flat",
@@ -40,8 +56,20 @@
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/love_mfc.png"
     },
     {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_det_back.png.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/det_back.png"
+    },
+    {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_situation_next_button.png.flat",
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/situation_next_button.png"
+    },
+    {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_detective_description.xml.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/layout/activity_detective_description.xml"
+    },
+    {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_arm.png.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/arm.png"
     },
     {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_situation__ques.xml.flat",
@@ -132,6 +160,10 @@
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/orange_but.png"
     },
     {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_dete.png.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/dete.png"
+    },
+    {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_time_up.xml.flat",
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/layout/activity_time_up.xml"
     },
@@ -154,6 +186,10 @@
     {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_orang_back.png.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/orang_back.png"
     },
     {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_twist.xml.flat",
@@ -204,8 +240,16 @@
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/s_text.png"
     },
     {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_arm_of.png.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/arm_of.png"
+    },
+    {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_army_back.png.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/army_back.png"
     },
     {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_yes_not_select.png.flat",

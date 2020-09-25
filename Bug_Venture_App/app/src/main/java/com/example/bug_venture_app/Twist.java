@@ -22,7 +22,7 @@ public class Twist extends AppCompatActivity {
         nxt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Twist.this, MajorChoice.class);
+                Intent intent = new Intent(Twist.this, detective_description.class);
                 startActivity(intent);
             }
         });
@@ -30,6 +30,6 @@ public class Twist extends AppCompatActivity {
 
     @Override
     public void onBackPressed(){
-        Toast.makeText(this,"Sorry Not Possible!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"You cannot go back!",Toast.LENGTH_SHORT).show();
     }
 }
