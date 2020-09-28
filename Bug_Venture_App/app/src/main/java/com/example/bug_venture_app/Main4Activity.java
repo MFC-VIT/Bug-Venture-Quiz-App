@@ -30,6 +30,8 @@ public class Main4Activity extends AppCompatActivity {
     static List<QuizQuestionSit> list_sit;
     static Qid_Sit qid_sit;
     Ques_Sit_Helper ques_sit_helper;
+    disp_ques_sit_opt_helper help;
+    static List<sit_abv_opt_ques> abv_opt_ques_list;
     static List<Integer> correct_sequence;
     static List<Integer> player_sequence;
     static long total_time;
@@ -73,12 +75,18 @@ public class Main4Activity extends AppCompatActivity {
             ques_sit_helper.allQuestion();
         }
 
+        help = new disp_ques_sit_opt_helper(this);
+        help.getWritableDatabase();
+
+        if(help.getAllOfTheQuestions().size() == 0) {
+            help.allQuestion();
+        }
+
         if(qid_sit.getQid_s() == 0) {
             list_op_sit = sit_opt_helper.getAllOfTheQuestions();
             list_sit = ques_sit_helper.getAllOfTheQuestions();
+            abv_opt_ques_list = help.getAllOfTheQuestions();
         }
-
-
 
         play = (Button) findViewById(R.id.button4);
 

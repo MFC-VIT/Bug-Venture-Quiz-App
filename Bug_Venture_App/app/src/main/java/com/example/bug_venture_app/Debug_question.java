@@ -57,33 +57,6 @@ public class Debug_question extends AppCompatActivity {
         progressBar = findViewById(R.id.progressbar);
         progressBar.setProgress(progress_status);
 
-        if(qidStoreDebug.getQ_id() == 5) {
-            boolean flag = false;
-            for(int i = 0; i < 3; i++) {
-                if(correct_sequence.get(i) == player_sequence.get(i)) {
-                    flag = true;
-                }
-                else {
-                    flag = false;
-                    break;
-                }
-            }
-
-            if(flag) {
-                Intent intent = new Intent(Debug_question.this, Final_Activity.class);
-                startActivity(intent);
-                finish();
-
-            }
-            else {
-                Intent intent = new Intent(Debug_question.this, completed.class);
-                startActivity(intent);
-                finish();
-
-            }
-
-        }
-
         current_question = Main4Activity.list.get(qidStoreDebug.getQ_id());
         q_no.setText("Question " + (qidStoreDebug.getQ_id() + 1));
 

@@ -55,7 +55,7 @@ public class Question_Helper extends SQLiteOpenHelper{
 
         arraylist.add(new QuizQuestion("The average temperature of a week excluding Day1 is 30 and  the average temperature of week excluding Day2 is 20. The sum of temperatures of Day1 and Day2 is 90. Individual temperatures of the two days are:", "15, 45", "10, 40", "15, 75", "20, 30", "15, 75"));
 
-        arraylist.add(new QuizQuestion("A scientist puts a virus in a petri dish at exactly 1pm. Every minute the virus divides into two and doubles in size. At exactly 2pm the petri dish is full. At what time was the dish half full?", "1:30pm", "1:29pm", "1:59pm", "1:46pm", "1:59pm"));
+        arraylist.add(new QuizQuestion("A scientist puts a virus in a petri dish at exactly 1pm. Every minute the virus divides into two and doubles in size. At exactly 2pm the petri dish is full. At what time was the dish half full?\n", "1:30pm", "1:29pm", "1:59pm", "1:46pm", "1:59pm"));
 
         arraylist.add(new QuizQuestion("Two boats, traveling at 5 km and 10 km per hour, head directly towards each other They begin at a distance of 20 km from each other How far apart are they one minute before they collide?", "500m", "650m", "250m", "330m", "250m"));
 

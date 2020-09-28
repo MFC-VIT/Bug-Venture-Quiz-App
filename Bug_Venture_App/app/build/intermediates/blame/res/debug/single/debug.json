@@ -28,6 +28,10 @@
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/drawable_ripple.xml.flat",
+        "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/drawable/ripple.xml"
+    },
+    {
         "merged": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/build/intermediates/res/merged/debug/layout_activity_army_description.xml.flat",
         "source": "/home/kaustubh/Desktop/app_dev/Quiz_Game/Bug_Venture_App/app/src/main/res/layout/activity_army_description.xml"
     },

@@ -1,0 +1,74 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class com.example.bug_venture_app.Debug_question { <init>(); }
+-keep class com.example.bug_venture_app.Final_Activity { <init>(); }
+-keep class com.example.bug_venture_app.Main2Activity { <init>(); }
+-keep class com.example.bug_venture_app.Main3Activity { <init>(); }
+-keep class com.example.bug_venture_app.Main4Activity { <init>(); }
+-keep class com.example.bug_venture_app.MainActivity { <init>(); }
+-keep class com.example.bug_venture_app.MajorChoice { <init>(); }
+-keep class com.example.bug_venture_app.Sit_Ques_Disp { <init>(); }
+-keep class com.example.bug_venture_app.Situation_Ques { <init>(); }
+-keep class com.example.bug_venture_app.Time_up { <init>(); }
+-keep class com.example.bug_venture_app.Twist { <init>(); }
+-keep class com.example.bug_venture_app.army_description { <init>(); }
+-keep class com.example.bug_venture_app.completed { <init>(); }
+-keep class com.example.bug_venture_app.detective_description { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keepclassmembers class * { *** on_click(android.view.View); }
+
+-keepclassmembers class * { *** on_click_army(android.view.View); }
+
+-keepclassmembers class * { *** on_click_bt1(android.view.View); }
+
+-keepclassmembers class * { *** on_click_bt2(android.view.View); }
+
+-keepclassmembers class * { *** on_click_dete(android.view.View); }
+

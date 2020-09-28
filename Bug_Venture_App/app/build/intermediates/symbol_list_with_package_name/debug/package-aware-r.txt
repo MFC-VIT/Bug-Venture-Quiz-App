@@ -749,6 +749,7 @@ drawable orange_but
 drawable password_
 drawable plot_twist
 drawable randon_text
+drawable ripple
 drawable s_text
 drawable situation_background
 drawable situation_button_theme

@@ -28,6 +28,7 @@ public class Situation_Ques extends AppCompatActivity {
 
     //QuizQuestionSit current_q;
     SitOpt current_op;
+    sit_abv_opt_ques curr;
     CountDownTimer countDownTimer_Sit;
 
     ProgressBar mProgressBarSituation;
@@ -50,8 +51,31 @@ public class Situation_Ques extends AppCompatActivity {
         mProgressBarSituation=findViewById(R.id.progressbarsituation);
         mProgressBarSituation.setProgress(progress_status_situation);
 
+        if(qidStoreDebug.getQ_id() == 5){
+            boolean flag = false;
+            for (int i = 0; i < 3; i++){
+                if(correct_sequence.get(i) == player_sequence.get(i)){
+                    flag = true;
+                }else {
+                    flag = false;
+                    break;
+                }
+            }
+
+            if(flag){
+                Intent intent = new Intent(Situation_Ques.this, Final_Activity.class);
+                startActivity(intent);
+                finish();
+            }else {
+                Intent intent = new Intent(Situation_Ques.this, completed.class);
+                startActivity(intent);
+                finish();
+            }
+        }
+
         //current_q = Main4Activity.list_sit.get(qid_sit.getQid_s());
         current_op = Main4Activity.list_op_sit.get(qid_sit.getQid_s());
+        curr = Main4Activity.abv_opt_ques_list.get(qid_sit.getQid_s());
         updateQ();
 
     }
@@ -164,6 +188,7 @@ public class Situation_Ques extends AppCompatActivity {
 
         yes.setText(current_op.getOption1());
         no.setText(current_op.getOption2());
+        question.setText(curr.getDisplay());
 
     }
 
