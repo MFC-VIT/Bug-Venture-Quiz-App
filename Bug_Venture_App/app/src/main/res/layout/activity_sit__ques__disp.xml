@@ -8,38 +8,39 @@
     tools:context=".Sit_Ques_Disp">
 
 
-    <TextView
-        android:id="@+id/textView16"
-        style="@style/what_would_"
+
+    <ImageView
+        android:id="@+id/imageView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Situation!"
-        android:textSize="40sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="45dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.135"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plot_twist" />
+
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="wrap_content"
-        android:layout_height="400dp"
-        android:layout_marginTop="35dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="75dp"
+        android:fadeScrollbars="false"
         android:scrollbarSize="10dp"
         android:scrollbarThumbVertical="@drawable/custom_scroll_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16">
+        app:layout_constraintTop_toBottomOf="@+id/imageView25">
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="345dp"
             android:layout_height="213dp"
-            android:text="TextView"
-            android:padding="10dp"
-            android:textAlignment="center"
             android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:paddingRight="15dp"
+            android:text="TextView"
             android:textColor="@android:color/white"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"

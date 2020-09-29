@@ -456,6 +456,7 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color scrollbardebug
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -878,6 +879,7 @@ id expand_activities_button
 id expanded_menu
 id forever
 id frameLayout
+id frameLayout2
 id gone
 id group_divider
 id groups
@@ -905,6 +907,7 @@ id imageView21
 id imageView22
 id imageView23
 id imageView24
+id imageView25
 id imageView28
 id imageView29
 id imageView3
@@ -1002,7 +1005,6 @@ id textView12
 id textView13
 id textView14
 id textView15
-id textView16
 id textView17
 id textView2
 id textView3

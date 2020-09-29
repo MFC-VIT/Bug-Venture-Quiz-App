@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+import java.util.Locale;
 
 import static com.example.bug_venture_app.Main4Activity.player_sequence;
 import static com.example.bug_venture_app.Main4Activity.qidStoreDebug;
@@ -35,6 +36,10 @@ public class Debug_question extends AppCompatActivity {
 
     CountDownTimer countDownTimer;
     QuizQuestion current_question;
+
+    private static final long START_TIME_IN_MILLIS = 60500;
+    private long mTimeLeftInMillis = START_TIME_IN_MILLIS;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +65,72 @@ public class Debug_question extends AppCompatActivity {
         q_no.setText("Question " + (qidStoreDebug.getQ_id() + 1));
 
         updateQueAndOptions();
+
+
+        countDownTimer = new CountDownTimer(mTimeLeftInMillis, 1000) {
+            @Override
+            public void onTick(long l) {
+
+                mTimeLeftInMillis=l;
+                long time_in_minutes=(mTimeLeftInMillis/1000)/60;
+                long time_in_seconds=(mTimeLeftInMillis/1000)%60;
+
+                String time = String.format(Locale.getDefault(), "%02d:%02d", time_in_minutes, time_in_seconds);
+                textView2.setText(time);
+
+                total_time = total_time + 1;
+                progress_status++;
+                progressBar.setProgress((int)(progress_status*100/((START_TIME_IN_MILLIS-500)/1000)));
+            }
+
+            @Override
+            public void onFinish() {
+                // Also in place of rsAmount.getText.toString() => Change it according to the answer given or not also if given what was given
+                if (select.equals("")) { // BY this if the user has given the wrong answer or not given any answer then he will be out
+                    Intent intent = new Intent(Debug_question.this, Time_up.class);
+                    countDownTimer.cancel();
+                    startActivity(intent);
+                } else {
+                    if(select.equals(current_question.getAnswer())) {
+                        if(qidStoreDebug.getQ_id() == 0) {
+                            Intent intent = new Intent(Debug_question.this, Twist.class);
+                            qidStoreDebug.updateQ_id();
+                            countDownTimer.cancel();
+                            score++;
+                            score_t.increment();
+                            startActivity(intent);
+                        }
+                        else {
+                            Intent intent = new Intent(Debug_question.this, Sit_Ques_Disp.class);
+                            qidStoreDebug.updateQ_id();
+                            countDownTimer.cancel();
+                            score++;
+                            score_t.increment();
+                            startActivity(intent);
+                        }
+                    }
+                    else {
+                        if(qidStoreDebug.getQ_id() == 0) {
+                            Intent intent = new Intent(Debug_question.this, Twist.class);
+                            qidStoreDebug.updateQ_id();
+                            countDownTimer.cancel();
+                            startActivity(intent);
+                        }
+                        else {
+                            Intent intent = new Intent(Debug_question.this, Sit_Ques_Disp.class);
+                            qidStoreDebug.updateQ_id();
+                            countDownTimer.cancel();
+                            startActivity(intent);
+                        }
+                    }
+
+                    progressBar.setProgress(100);
+                }
+            }
+        }.start();
+
+
+
     }
 
     @Override
@@ -110,79 +181,6 @@ public class Debug_question extends AppCompatActivity {
 
         Log.d(TAG, "onStart: Debug");
 
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        countDownTimer = new CountDownTimer(60500, 1000) {
-            @Override
-            public void onTick(long l) {
-                long time_in_minutes=(l/1000)/60;
-                long time_in_seconds=(l/1000)%60;
-
-                if (time_in_seconds < (long) 10) {
-                    String time="0"+time_in_minutes+":0"+time_in_seconds;
-                    textView2.setText(time);
-                } else {
-                    String time="0"+time_in_minutes+":"+time_in_seconds;
-                    textView2.setText(time);
-                }
-
-                total_time = total_time + 1;
-                progress_status++;
-                progressBar.setProgress((int)(progress_status*100/(60000/1000)));
-            }
-
-            @Override
-            public void onFinish() {
-                // Also in place of rsAmount.getText.toString() => Change it according to the answer given or not also if given what was given
-                if (select.equals("")) { // BY this if the user has given the wrong answer or not given any answer then he will be out
-                    Intent intent = new Intent(Debug_question.this, Time_up.class);
-                    countDownTimer.cancel();
-                    startActivity(intent);
-                } else {
-                    if(select.equals(current_question.getAnswer())) {
-                        if(qidStoreDebug.getQ_id() == 0) {
-                            Intent intent = new Intent(Debug_question.this, Twist.class);
-                            qidStoreDebug.updateQ_id();
-                            countDownTimer.cancel();
-                            score++;
-                            score_t.increment();
-                            startActivity(intent);
-                        }
-                        else {
-                            Intent intent = new Intent(Debug_question.this, Sit_Ques_Disp.class);
-                            qidStoreDebug.updateQ_id();
-                            countDownTimer.cancel();
-                            score++;
-                            score_t.increment();
-                            startActivity(intent);
-                        }
-                    }
-                    else {
-                        if(qidStoreDebug.getQ_id() == 0) {
-                            Intent intent = new Intent(Debug_question.this, Twist.class);
-                            qidStoreDebug.updateQ_id();
-                            countDownTimer.cancel();
-                            startActivity(intent);
-                        }
-                        else {
-                            Intent intent = new Intent(Debug_question.this, Sit_Ques_Disp.class);
-                            qidStoreDebug.updateQ_id();
-                            countDownTimer.cancel();
-                            startActivity(intent);
-                        }
-                    }
-
-                    progress_status++;
-                    progressBar.setProgress(100);
-                }
-            }
-        }.start();
-
-        Log.d(TAG, "onResume: Debug");
     }
 
     @Override

@@ -12,6 +12,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Locale;
+
 import static com.example.bug_venture_app.Main4Activity.player_sequence;
 import static com.example.bug_venture_app.Main4Activity.qid_sit;
 import static com.example.bug_venture_app.Main4Activity.total_time;
@@ -33,6 +35,9 @@ public class Situation_Ques extends AppCompatActivity {
 
     ProgressBar mProgressBarSituation;
     int progress_status_situation=0;
+
+    private static final long START_TIME_IN_MILLIS_situ= 60500;
+    private long mTimeLeftInMillis_situ = START_TIME_IN_MILLIS_situ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,59 +61,20 @@ public class Situation_Ques extends AppCompatActivity {
         curr = Main4Activity.abv_opt_ques_list.get(qid_sit.getQid_s());
         updateQ();
 
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-        submit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (selected.equals("")) {
-                    Toast.makeText(Situation_Ques.this, "Please select something before clicking next.", Toast.LENGTH_SHORT).show();
-                }
-                else if(selected.equals("Yes")) {
-                    Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
-                    player_sequence.add(0);
-                    qid_sit.updateLeft();
-                    countDownTimer_Sit.cancel();
-                    startActivity(intent);
-                }
-
-                else if (selected.equals("No")) {
-                    Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
-                    player_sequence.add(1);
-                    qid_sit.updateRight();
-                    countDownTimer_Sit.cancel();
-                    startActivity(intent);
-                }
-            }
-        });
-
-        Log.d(TAG, "onStart: Situation");
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        countDownTimer_Sit = new CountDownTimer(60500,1000) {
+        countDownTimer_Sit = new CountDownTimer(mTimeLeftInMillis_situ,1000) {
             @Override
             public void onTick(long l) {
-                long time_in_minutes=(l/1000)/60;
-                long time_in_seconds=(l/1000)%60;
 
-                if (time_in_seconds < (long) 10) {
-                    String time="0"+time_in_minutes+":0"+time_in_seconds;
-                    textView2.setText(time);
-                } else {
-                    String time="0"+time_in_minutes+":"+time_in_seconds;
-                    textView2.setText(time);
-                }
+                mTimeLeftInMillis_situ=l;
+                long time_in_minutes=(mTimeLeftInMillis_situ/1000)/60;
+                long time_in_seconds=(mTimeLeftInMillis_situ/1000)%60;
+
+                String time = String.format(Locale.getDefault(), "%02d:%02d", time_in_minutes, time_in_seconds);
+                textView2.setText(time);
 
                 total_time = total_time + 1;
                 progress_status_situation++;
-                mProgressBarSituation.setProgress((int)(progress_status_situation*100/(60000/1000)));
+                mProgressBarSituation.setProgress((int)(progress_status_situation*100/((START_TIME_IN_MILLIS_situ-500)/1000)));
             }
 
             @Override
@@ -140,7 +106,36 @@ public class Situation_Ques extends AppCompatActivity {
             }
         }.start();
 
-        Log.d(TAG, "onResume: Situation");
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (selected.equals("")) {
+                    Toast.makeText(Situation_Ques.this, "Please select something before clicking next.", Toast.LENGTH_SHORT).show();
+                }
+                else if(selected.equals("Yes")) {
+                    Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
+                    player_sequence.add(0);
+                    qid_sit.updateLeft();
+                    countDownTimer_Sit.cancel();
+                    startActivity(intent);
+                }
+
+                else if (selected.equals("No")) {
+                    Intent intent = new Intent(Situation_Ques.this, Debug_question.class);
+                    player_sequence.add(1);
+                    qid_sit.updateRight();
+                    countDownTimer_Sit.cancel();
+                    startActivity(intent);
+                }
+            }
+        });
+
+        Log.d(TAG, "onStart: Situation");
     }
 
     @Override
