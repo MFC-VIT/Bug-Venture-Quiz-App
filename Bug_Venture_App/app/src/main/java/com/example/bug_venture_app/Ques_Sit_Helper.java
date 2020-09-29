@@ -12,7 +12,7 @@ import java.util.List;
 public class Ques_Sit_Helper extends SQLiteOpenHelper{
 
     private Context context;
-    private static final String DB_NAME = "Sit_questions1.db";
+    private static final String DB_NAME = "Sit_q5.db";
     private static final int DB_VERSION = 3;
     private static final String TABLE_NAME = "Quiz_Question";
     private static final String UID = "_UID";

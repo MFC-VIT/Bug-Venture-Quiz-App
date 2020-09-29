@@ -32,7 +32,8 @@ public class Main4Activity extends AppCompatActivity {
     Ques_Sit_Helper ques_sit_helper;
     disp_ques_sit_opt_helper help;
     static List<sit_abv_opt_ques> abv_opt_ques_list;
-    static List<Integer> correct_sequence;
+    static List<Integer> correct_sequence1;
+    static List<Integer> correct_sequence2;
     static List<Integer> player_sequence;
     static long total_time;
     static int score;
@@ -43,7 +44,8 @@ public class Main4Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
 
-        correct_sequence = new ArrayList<Integer>();
+        correct_sequence1 = new ArrayList<Integer>();
+        correct_sequence2 = new ArrayList<Integer>();
         player_sequence = new ArrayList<Integer>();
         init_sequence();
         total_time = 0;
@@ -107,8 +109,11 @@ public class Main4Activity extends AppCompatActivity {
     }
 
     public void init_sequence() {
-        correct_sequence.add(1);
-        correct_sequence.add(0);
-        correct_sequence.add(1);
+        correct_sequence1.add(0);correct_sequence2.add(0);
+        correct_sequence1.add(0);correct_sequence2.add(0);
+        correct_sequence1.add(0);correct_sequence2.add(0);
+        correct_sequence1.add(0);correct_sequence2.add(0);
+        correct_sequence1.add(1);correct_sequence2.add(0);
+        correct_sequence1.add(0);correct_sequence2.add(0);
     }
 }

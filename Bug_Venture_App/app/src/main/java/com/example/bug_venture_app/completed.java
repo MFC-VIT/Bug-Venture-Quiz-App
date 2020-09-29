@@ -62,10 +62,10 @@ public class completed extends AppCompatActivity {
 
         if(score == 10)
         {
-            u_code.setText(generatedString + score_1);
+            u_code.setText(generatedString + score);
         }
         else {
-            u_code.setText(generatedString + "0" + score_1);
+            u_code.setText(generatedString + "0" + score);
         }
     }
 

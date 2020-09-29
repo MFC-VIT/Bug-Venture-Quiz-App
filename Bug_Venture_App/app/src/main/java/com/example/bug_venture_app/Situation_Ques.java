@@ -15,7 +15,7 @@ import android.widget.Toast;
 import static com.example.bug_venture_app.Main4Activity.player_sequence;
 import static com.example.bug_venture_app.Main4Activity.qid_sit;
 import static com.example.bug_venture_app.Main4Activity.total_time;
-import static com.example.bug_venture_app.Main4Activity.correct_sequence;
+import static com.example.bug_venture_app.Main4Activity.correct_sequence1;
 import static com.example.bug_venture_app.Main4Activity.qidStoreDebug;
 
 public class Situation_Ques extends AppCompatActivity {
@@ -50,28 +50,6 @@ public class Situation_Ques extends AppCompatActivity {
 
         mProgressBarSituation=findViewById(R.id.progressbarsituation);
         mProgressBarSituation.setProgress(progress_status_situation);
-
-        if(qidStoreDebug.getQ_id() == 5){
-            boolean flag = false;
-            for (int i = 0; i < 3; i++){
-                if(correct_sequence.get(i) == player_sequence.get(i)){
-                    flag = true;
-                }else {
-                    flag = false;
-                    break;
-                }
-            }
-
-            if(flag){
-                Intent intent = new Intent(Situation_Ques.this, Final_Activity.class);
-                startActivity(intent);
-                finish();
-            }else {
-                Intent intent = new Intent(Situation_Ques.this, completed.class);
-                startActivity(intent);
-                finish();
-            }
-        }
 
         //current_q = Main4Activity.list_sit.get(qid_sit.getQid_s());
         current_op = Main4Activity.list_op_sit.get(qid_sit.getQid_s());

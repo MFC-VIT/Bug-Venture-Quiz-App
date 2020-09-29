@@ -15,7 +15,6 @@ import android.widget.Toast;
 
 
 
-import static com.example.bug_venture_app.Main4Activity.correct_sequence;
 import static com.example.bug_venture_app.Main4Activity.player_sequence;
 import static com.example.bug_venture_app.Main4Activity.qidStoreDebug;
 import static com.example.bug_venture_app.Main4Activity.total_time;

@@ -44,15 +44,15 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //1
         arrayList.add(new SitOpt("Commit Crime", "Trust the \nDetective \nand Wait"));
         //2
-        arrayList.add(new SitOpt("sol1", "sol2"));
+        arrayList.add(new SitOpt("Not Commit Crime", "Commit Crime"));
 //3
         arrayList.add(new SitOpt("Abort the \nMission and \nsave your wife", "Complete the \nmission"));
 //4
         arrayList.add(new SitOpt("Take the Detective's \nsuggestion", "Commit the \ncrime for real"));
 //5
-        arrayList.add(new SitOpt("sol2", "sol2"));
+        arrayList.add(new SitOpt("Believe Mother", "Believe Father and neighbors"));
 //6
-        arrayList.add(new SitOpt("sol3", "sol3"));
+        arrayList.add(new SitOpt("Use lethal injection", "use a gun"));
         //7
         arrayList.add(new SitOpt("Take Detective's\nsuggestion", "commit the\ncrime for\nreal"));
         //8
@@ -62,13 +62,13 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //10
         arrayList.add(new SitOpt("Give all \nthe records", "Refuse to \ngive records"));
         //11
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("continue investigating", "stop investigating and choose murder"));
         //12
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("investigate rhea's whereabouts", "Help Pooja, Commit Crime"));
         //13
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Complete mission alone", "Take Pooja Along"));
         //14
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Complete mission alone", "Take Pooja Along"));
         //15
         arrayList.add(new SitOpt("Give all \nthe records", "Refuse to \ngive records"));
         //16
@@ -80,27 +80,27 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //19
         arrayList.add(new SitOpt("Open the\nkidnapper's\nparcel", "Ignore parcel\nand arrange\nfuneral"));
         //20
-        arrayList.add(new SitOpt("pen the\nkidnapper's\nparcel", "Ignore parcel\nand arrange\nfuneral"));
+        arrayList.add(new SitOpt("Open the\nkidnapper's\nparcel", "Ignore parcel\nand arrange\nfuneral"));
         //21
         arrayList.add(new SitOpt("Open the\nkidnapper's\nparcel", "Ignore parcel\nand arrange\nfuneral"));
         //22
         arrayList.add(new SitOpt("Open the\nkidnapper's\nparcel", "Ignore parcel\nand arrange\nfuneral"));
         //23
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Ask for Kid's Records", "Wait for kid after school"));
         //24
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("choose unregistered gun", "choose army gun"));
         //25
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Ask for Kid's Records", "Wait for kid after school"));
         //26
         arrayList.add(new SitOpt("option1", "option2"));
         //27
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("choose unregistered gun", "choose army gun"));
         //28
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("choose unregistered gun", "choose army gun"));
         //29
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("choose unregistered gun", "choose army gun"));
         //30
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("choose unregistered gun", "choose army gun"));
         //31
         arrayList.add(new SitOpt("Open the\nkidnapper's\nparcel", "Ignore parcel\nand arrange\nfuneral"));
         //32
@@ -134,37 +134,37 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //46
         arrayList.add(new SitOpt("Commit final\ncrime", "Do not\ncommit crime"));
         //47
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja", "Try to\ntalk to\nkid after\nschool next\nday"));
         //48
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Leave Kid", "Keep Questioning\nKid"));
         //49
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //50
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //51
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja", "Try to\ntalk to\nkid after\nschool next\nday"));
         //52
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Leave Kid", "Keep Questioning\nKid"));
         //53
         arrayList.add(new SitOpt("option1", "option2"));
         //54
         arrayList.add(new SitOpt("option1", "option2"));
         //55
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //56
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //57
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //58
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //59
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //60
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //61
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //62
-        arrayList.add(new SitOpt("option1", "option2"));
+        // ??
         //63
         arrayList.add(new SitOpt("Save\nMr.Verma", "Save Rhea"));
         //64
@@ -230,13 +230,73 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //94
         arrayList.add(new SitOpt("Kill\nMr.Verma", "Kill Rhea"));
         //95
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("call psychiatric\nhospital to\ntake Pooja", "Try to\nexplain Pooja\nthat Rhea\nis not\nher daughter"));
         //96
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja", "Report Pooja\nto the\npolice"));
         //97
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Maybe she\nhad a\nbad encounter\nwith Pooja\nin past", "Maybe she\nknew Pooja\n and missed\nher"));
         //98
+        arrayList.add(new SitOpt("Binod confronts\nAnkita about\nPooja", "Binod Panics\nand leave"));
+        //99
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //100
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //101
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //102
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //103
+        arrayList.add(new SitOpt("Turn Pooja\nto police", "Try to\nexplain to\nPooja that\nRhea is\nnot her\ndaughter"));
+        //104
+        arrayList.add(new SitOpt("Confront Pooja", "Report Pooja\nto the\npublic"));
+        //105
+        arrayList.add(new SitOpt("Maybe she\nhad a\nbad encounter\nwith Pooja\nin past", "Maybe she\nknew Pooja\n and missed\nher"));
+        //106
+        arrayList.add(new SitOpt("Binod confronts\nAnkita about\nPooja", "Binod Panics\nand leave"));
+        //107
         arrayList.add(new SitOpt("option1", "option2"));
+        //108
+        arrayList.add(new SitOpt("option1", "option2"));
+        //109
+        arrayList.add(new SitOpt("option1", "option2"));
+        //110
+        arrayList.add(new SitOpt("option1", "option2"));
+        //111
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //112
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //113
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //114
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //115
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //116
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //117
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //118
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //119
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //120
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //121
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //122
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //123
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //124
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //125
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+        //126
+        arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
+
+
+
+
 
         this.addAllQuestions(arrayList);
     }

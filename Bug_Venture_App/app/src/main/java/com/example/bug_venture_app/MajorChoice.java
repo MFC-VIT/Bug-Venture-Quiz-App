@@ -11,6 +11,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import static com.example.bug_venture_app.Main4Activity.correct_sequence1;
+import static com.example.bug_venture_app.Main4Activity.correct_sequence2;
 import static com.example.bug_venture_app.Main4Activity.player_sequence;
 import static com.example.bug_venture_app.Main4Activity.qid_sit;
 import static com.example.bug_venture_app.Main4Activity.total_time;
@@ -19,6 +24,7 @@ public class MajorChoice extends AppCompatActivity {
 
     Button next, back;
     String select;
+    static List<Integer> chose_seq;
 
 
 
@@ -30,6 +36,7 @@ public class MajorChoice extends AppCompatActivity {
         next = findViewById(R.id.button11);
         back = findViewById(R.id.button10);
         select = "";
+        chose_seq = new ArrayList<Integer>();
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,11 +48,13 @@ public class MajorChoice extends AppCompatActivity {
                 else if (select.equals("dete"))
                 {
                     qid_sit.updateLeft();
+                    chose_seq = correct_sequence1;
                     Intent intent = new Intent(MajorChoice.this, Debug_question.class);
                     startActivity(intent);
                 }
                 else if(select.equals("army")){
                     qid_sit.updateRight();
+                    chose_seq = correct_sequence2;
                     Intent intent = new Intent(MajorChoice.this, Debug_question.class);
                     startActivity(intent);
                 }
