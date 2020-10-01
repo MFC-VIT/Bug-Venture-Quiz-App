@@ -34,10 +34,10 @@ public class Final_Activity extends AppCompatActivity {
         email.setText(e_Mail);
         if(score == 10)
         {
-            unique_generated.setText("Winner" + score);
+            unique_generated.setText("3s6a46k5a" + score);
         }
         else {
-            unique_generated.setText("Winner" + "0" + score);
+            unique_generated.setText("3s6a46k5a" + "0" + score);
         }
 
         long minutes = total_time / 60;

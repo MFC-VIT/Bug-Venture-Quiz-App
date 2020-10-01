@@ -12,7 +12,7 @@ import java.util.List;
 public class Question_Helper extends SQLiteOpenHelper{
 
     private Context context;
-    private static final String DB_NAME = "Quiz13.db";
+    private static final String DB_NAME = "Quiz14.db";
     private static final int DB_VERSION = 3;
     private static final String TABLE_NAME = "Quiz_Questions";
     private static final String UID = "_UID";
@@ -57,9 +57,9 @@ public class Question_Helper extends SQLiteOpenHelper{
 
         arraylist.add(new QuizQuestion("A scientist puts a virus in a petri dish at exactly 1pm. Every minute the virus divides into two and doubles in size. At exactly 2pm the petri dish is full. At what time was the dish half full?\n", "1:30pm", "1:29pm", "1:59pm", "1:46pm", "1:59pm"));
 
-        arraylist.add(new QuizQuestion("Two boats, traveling at 5 km and 10 km per hour, head directly towards each other They begin at a distance of 20 km from each other How far apart are they one minute before they collide?", "500m", "650m", "250m", "330m", "250m"));
+        arraylist.add(new QuizQuestion("There are 25 horses among which you need to find out the fastest 3 horses. You can conduct race among at most 5 to find out their relative speed. At no point you can find out the actual speed of the horse in a race. Find out how many races are required to get the top 3 horses.", "5", "6", "7", "8", "7"));
 
-        arraylist.add(new QuizQuestion("Mohan and Paul sell some articles for Rs. 8000 each. Mohan calculates his profit percent on his CP and Parul calculates the profit percent wrongly on SP. What is the difference in the actual profit if both claims to have a profit of 60%?", "Rs 1800", "Rs 900", "Rs 1200", "Rs. 1000", "Rs 1800"));
+        arraylist.add(new QuizQuestion("Mohan and Paul sell some articles for Rs. 15000 each. Mohan calculates his profit percent on his CP and Parul calculates the profit percent wrongly on SP. What is the difference in the actual profit if both claims to have a profit of 50%?", "Rs 2500", "Rs 1250", "Rs 5000", "Rs. 1000", "Rs 2500"));
 
 
         this.addAllQuestions(arraylist);
@@ -113,3 +113,4 @@ public class Question_Helper extends SQLiteOpenHelper{
         return questionList;
     }
 }
+

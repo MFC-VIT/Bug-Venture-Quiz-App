@@ -4,17 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MajorChoice"
-    android:background="@drawable/login_back">
+    android:background="@drawable/login_back"
+    tools:context=".MajorChoice">
 
     <ImageView
         android:id="@+id/imageView22"
         android:layout_width="137dp"
-        android:layout_height="446dp"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="68dp"
+        android:layout_height="444dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
         android:onClick="on_click_army"
-        android:background="@drawable/ripple"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/arm" />
@@ -23,10 +22,9 @@
         android:id="@+id/imageView23"
         android:layout_width="137dp"
         android:layout_height="444dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="52dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"
         android:onClick="on_click_dete"
-        android:background="@drawable/ripple"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/dete" />
@@ -56,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="52dp"
         android:layout_marginBottom="26dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView22"
@@ -65,24 +63,32 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/make_c" />
 
-    <ImageView
-        android:id="@+id/imageView28"
+    <TextView
+        android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/button10"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/army_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/arm_of" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView22" />
 
-    <ImageView
-        android:id="@+id/imageView29"
+    <TextView
+        android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/button11"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/detective_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/detect" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView23" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

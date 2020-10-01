@@ -12,7 +12,7 @@ import java.util.List;
 public class Ques_Sit_Helper extends SQLiteOpenHelper{
 
     private Context context;
-    private static final String DB_NAME = "Sit_q5.db";
+    private static final String DB_NAME = "Sit_q6.db";
     private static final int DB_VERSION = 3;
     private static final String TABLE_NAME = "Quiz_Question";
     private static final String UID = "_UID";
@@ -66,8 +66,8 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
 
         //7
         arraylist.add(new QuizQuestionSit("When guards confront Mrs. Pooja Verma, she says that she was recording her husband and not the person and he is saved. They finally abort the mission and get home safely.\n" +
-                "There is another parcel received from the angry kidnapper with blood soaked clothes of Ria and a warning which says that the next task is due tomorrow and if it is not accomplished then the next parcel will have Ria’s corpse in it.\n" +
-                "\nDetective Pradyuman suggests that for this task, instead of committing the crime for real, you can talk to the target and convince him to help them by being a part of a play where he acts to be killed by the couple for the video. But the detective also warns that there might be eyes following you and there is a very high risk of being noticed by the kidnapper and he might kill Ria.\n" +
+                "There is another parcel received from the angry kidnapper with blood soaked clothes of Rhea and a warning which says that the next task is due tomorrow and if it is not accomplished then the next parcel will have Rhea’s corpse in it.\n" +
+                "\nDetective Pradyuman suggests that for this task, instead of committing the crime for real, you can talk to the target and convince him to help them by being a part of a play where he acts to be killed by the couple for the video. But the detective also warns that there might be eyes following you and there is a very high risk of being noticed by the kidnapper and he might kill Rhea.\n" +
                 "\n"));
         //8
         arraylist.add(new QuizQuestionSit("The bodyguards are distracted and the couple make a safe escape with the mission done.\n" +
@@ -120,7 +120,7 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         //30
         arraylist.add(new QuizQuestionSit("When Binod decides to take Pooja with her to complete the mission, the very next day Pooja gets another parcel which says that Binod has to go to crime scene alone, if Pooja’s identity gets exposed at the crime scene she might not be able to see Rhea again. Therefore Pooja denies to go on mission and requests Binod to go alone. After deciding to go to mission alone, Binod decides to procure a gun to kill the person mentioned in the parcel. Guns are traceable through bullets and unregistered weapons can lead one to prison."));
         //31
-        arraylist.add(new QuizQuestionSit("Upon receiving records from the father, Detective Pradyuman notices a similarity between kidnapper and Ria’s grandfather in law. Mr. Pradyuman advices to arrange a fake funeral so that the kidnapper reacts to it somehow. Meanwhile the kidnapper sends another parcel.\n"));
+        arraylist.add(new QuizQuestionSit("Upon receiving records from the father, Detective Pradyuman notices a similarity between kidnapper and Rhea’s grandfather in law. Mr. Pradyuman advices to arrange a fake funeral so that the kidnapper reacts to it somehow. Meanwhile the kidnapper sends another parcel.\n"));
         //32
         arraylist.add(new QuizQuestionSit("Mr. Pradyuman advices to arrange the fake funeral so that the kidnapper reacts to it somehow. \n" + "Meanwhile the kidnapper sends another parcel.\n"));
         //33
@@ -523,19 +523,19 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         arraylist.add(new QuizQuestionSit("Binod lives the rest of his life in guilt of killing and innocent woman and a mother to a small child."));
 //205
         arraylist.add(new QuizQuestionSit("Binod goes to police and pleads guilty for his crime and gets Pooja arrested. Both gets jailed for 20 years."));
-    //206
+        //206
         arraylist.add(new QuizQuestionSit("Binod lives the rest of his life in guilt of killing and innocent woman and a mother to a small child."));
         //207
         arraylist.add(new QuizQuestionSit("Binod tells Rhea that he has to tell police because Pooja has tried to fake a crime and planned to kill an innocent woman. When Binod calls police Pooja panics, and hits him with a flower vase on the head which leads to Binod’s death."));
-      //208
+        //208
         arraylist.add(new QuizQuestionSit("This enrages and triggers Pooja even more. She becomes so unstable that she hits Binod’s head with a flower vase, thereby killing Binod."));
-      //209
+        //209
         arraylist.add(new QuizQuestionSit("Binod confront Pooja about this and she becomes unstable. She defends herself and accuses Ankita of lying to Binod. Binod try to explain to her that Rhea is not her daughter. This enrages Pooja even more and she attacks Binod. She hits Binod on Binod head with a vase, thereby killing Binod."));
-      //210
+        //210
         arraylist.add(new QuizQuestionSit("Binod along with police go to Pooja’s house. When Binod reaches her house, Binod see that Pooja has fled."));
-      //211
+        //211
         arraylist.add(new QuizQuestionSit("Binod reach Pooja’s house and find that she is not home. Next day Binod are contacted by the police saying that Rhea Gupta is missing and he was the last person spotted with her. Since Rhea wasn’t kidnapped and Pooja was missing, Binod doubts the mental health of Pooja and thinks Pooja has probably abducted her after he left Rhea at school and the whole plan of murdering was Pooja’s plot."));
-      //212
+        //212
         arraylist.add(new QuizQuestionSit("Binod reach Pooja’s house and find that she is not home. Next day Binod are contacted by the police saying that Rhea Gupta is missing and he was the last person spotted with her. Since Rhea wasn’t kidnapped and Pooja was missing, Binod doubts the mental health of Pooja and thinks Pooja has probably abducted her after he left Rhea at school and the whole plan of murdering was Pooja’s plot."));
         //213
         arraylist.add(new QuizQuestionSit("Binod recalls that Ankita was the woman whose name was on the envelope in the parcel and gets to know she was an old friend of pooja. Binod confronts pooja about today’s happenings and how everything points to the fact that she is lying and is not the real mother of Rhea. Seeing that there is no escape now, Pooja proceeds to kill Binod."));
@@ -591,7 +591,7 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         arraylist.add(new QuizQuestionSit("Binod lives the rest of his life in guilt of killing and innocent woman and a mother to a small child."));
 //239
         arraylist.add(new QuizQuestionSit("Binod goes to police and pleads guilty for his crime and gets Pooja arrested. Both gets jailed for 20 years."));
-     //240
+        //240
         arraylist.add(new QuizQuestionSit("Binod lives the rest of his life in guilt of killing and innocent woman and a mother to a small child."));
         //241
         arraylist.add(new QuizQuestionSit("Binod goes to police and pleads guilty for his crime and gets Pooja arrested. Both gets jailed for 20 years."));
@@ -664,3 +664,4 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         return questionList;
     }
 }
+

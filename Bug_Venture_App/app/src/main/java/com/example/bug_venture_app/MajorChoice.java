@@ -3,10 +3,12 @@ package com.example.bug_venture_app;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,6 +27,7 @@ public class MajorChoice extends AppCompatActivity {
     Button next, back;
     String select;
     static List<Integer> chose_seq;
+    TextView army_text,det_text;
 
 
 
@@ -37,6 +40,10 @@ public class MajorChoice extends AppCompatActivity {
         back = findViewById(R.id.button10);
         select = "";
         chose_seq = new ArrayList<Integer>();
+
+        army_text=findViewById(R.id.textView18);
+        det_text=findViewById(R.id.textView19);
+
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,9 +89,15 @@ public class MajorChoice extends AppCompatActivity {
 
     public void on_click_army(View view) {
         select = "army";
+        army_text.setTextColor(Color.parseColor("#E85B09"));
+        det_text.setTextColor(Color.parseColor("#FFFFFF"));
+
     }
 
     public void on_click_dete(View view) {
         select = "dete";
+        det_text.setTextColor(Color.parseColor("#E85B09"));
+        army_text.setTextColor(Color.parseColor("#FFFFFF"));
+
     }
 }

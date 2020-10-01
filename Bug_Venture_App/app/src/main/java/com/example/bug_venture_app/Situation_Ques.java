@@ -36,7 +36,7 @@ public class Situation_Ques extends AppCompatActivity {
     ProgressBar mProgressBarSituation;
     int progress_status_situation=0;
 
-    private static final long START_TIME_IN_MILLIS_situ= 60500;
+    private static final long START_TIME_IN_MILLIS_situ= 30500;
     private long mTimeLeftInMillis_situ = START_TIME_IN_MILLIS_situ;
 
     @Override

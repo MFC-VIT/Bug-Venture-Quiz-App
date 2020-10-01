@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 2.0.88
 # min_api: 21
-# pg_map_id: 7fb00a6
+# pg_map_id: 1805391
 # common_typos_disable
 androidx.activity.Cancellable -> a.a.a:
 androidx.activity.ComponentActivity -> androidx.activity.ComponentActivity:
@@ -13467,59 +13467,47 @@ com.example.bug_venture_app.Debug_question -> com.example.bug_venture_app.Debug_
     android.widget.RadioButton rd6 -> u
     android.widget.Button next -> p
     com.example.bug_venture_app.QuizQuestion current_question -> B
+    long mTimeLeftInMillis -> C
     android.os.CountDownTimer countDownTimer -> A
     java.lang.String select -> x
     int progress_status -> z
-    java.lang.String TAG -> C
     android.widget.ProgressBar progressBar -> y
+    java.lang.String TAG -> D
     1:1:int com.example.bug_venture_app.QidStoreDebug.getQ_id():0:0 -> onCreate
     1:1:void onCreate(android.os.Bundle):0 -> onCreate
     2:2:void onCreate(android.os.Bundle):0:0 -> onCreate
     3:3:int com.example.bug_venture_app.QidStoreDebug.getQ_id():0:0 -> onCreate
     3:3:void onCreate(android.os.Bundle):0 -> onCreate
     4:4:void onCreate(android.os.Bundle):0:0 -> onCreate
-    5:5:int com.example.bug_venture_app.QidStoreDebug.getQ_id():0:0 -> onCreate
+    5:5:void updateQueAndOptions():0:0 -> onCreate
     5:5:void onCreate(android.os.Bundle):0 -> onCreate
-    6:6:void onCreate(android.os.Bundle):0:0 -> onCreate
+    6:6:java.lang.String com.example.bug_venture_app.QuizQuestion.getQuestion():0:0 -> onCreate
+    6:6:void updateQueAndOptions():0 -> onCreate
+    6:6:void onCreate(android.os.Bundle):0 -> onCreate
     7:7:void updateQueAndOptions():0:0 -> onCreate
     7:7:void onCreate(android.os.Bundle):0 -> onCreate
-    8:8:java.lang.String com.example.bug_venture_app.QuizQuestion.getQuestion():0:0 -> onCreate
+    8:8:java.lang.String com.example.bug_venture_app.QuizQuestion.getOptA():0:0 -> onCreate
     8:8:void updateQueAndOptions():0 -> onCreate
     8:8:void onCreate(android.os.Bundle):0 -> onCreate
     9:9:void updateQueAndOptions():0:0 -> onCreate
     9:9:void onCreate(android.os.Bundle):0 -> onCreate
-    10:10:java.lang.String com.example.bug_venture_app.QuizQuestion.getOptA():0:0 -> onCreate
+    10:10:java.lang.String com.example.bug_venture_app.QuizQuestion.getOptB():0:0 -> onCreate
     10:10:void updateQueAndOptions():0 -> onCreate
     10:10:void onCreate(android.os.Bundle):0 -> onCreate
     11:11:void updateQueAndOptions():0:0 -> onCreate
     11:11:void onCreate(android.os.Bundle):0 -> onCreate
-    12:12:java.lang.String com.example.bug_venture_app.QuizQuestion.getOptB():0:0 -> onCreate
+    12:12:java.lang.String com.example.bug_venture_app.QuizQuestion.getOptC():0:0 -> onCreate
     12:12:void updateQueAndOptions():0 -> onCreate
     12:12:void onCreate(android.os.Bundle):0 -> onCreate
     13:13:void updateQueAndOptions():0:0 -> onCreate
     13:13:void onCreate(android.os.Bundle):0 -> onCreate
-    14:14:java.lang.String com.example.bug_venture_app.QuizQuestion.getOptC():0:0 -> onCreate
+    14:14:java.lang.String com.example.bug_venture_app.QuizQuestion.getOptD():0:0 -> onCreate
     14:14:void updateQueAndOptions():0 -> onCreate
     14:14:void onCreate(android.os.Bundle):0 -> onCreate
     15:15:void updateQueAndOptions():0:0 -> onCreate
     15:15:void onCreate(android.os.Bundle):0 -> onCreate
-    16:16:java.lang.String com.example.bug_venture_app.QuizQuestion.getOptD():0:0 -> onCreate
-    16:16:void updateQueAndOptions():0 -> onCreate
-    16:16:void onCreate(android.os.Bundle):0 -> onCreate
-    17:17:void updateQueAndOptions():0:0 -> onCreate
-    17:17:void onCreate(android.os.Bundle):0 -> onCreate
+    16:16:void onCreate(android.os.Bundle):0:0 -> onCreate
 com.example.bug_venture_app.Debug_question$1 -> com.example.bug_venture_app.Debug_question$a:
-    com.example.bug_venture_app.Debug_question this$0 -> b
-    1:1:java.lang.String com.example.bug_venture_app.QuizQuestion.getAnswer():0:0 -> onClick
-    1:1:void onClick(android.view.View):0 -> onClick
-    2:2:void onClick(android.view.View):0:0 -> onClick
-    3:3:int com.example.bug_venture_app.QidStoreDebug.getQ_id():0:0 -> onClick
-    3:3:void onClick(android.view.View):0 -> onClick
-    4:4:void onClick(android.view.View):0:0 -> onClick
-    5:5:int com.example.bug_venture_app.QidStoreDebug.getQ_id():0:0 -> onClick
-    5:5:void onClick(android.view.View):0 -> onClick
-    6:6:void onClick(android.view.View):0:0 -> onClick
-com.example.bug_venture_app.Debug_question$2 -> com.example.bug_venture_app.Debug_question$b:
     com.example.bug_venture_app.Debug_question this$0 -> a
     1:1:java.lang.String com.example.bug_venture_app.QuizQuestion.getAnswer():0:0 -> onFinish
     1:1:void onFinish():0 -> onFinish
@@ -13530,6 +13518,20 @@ com.example.bug_venture_app.Debug_question$2 -> com.example.bug_venture_app.Debu
     5:5:int com.example.bug_venture_app.QidStoreDebug.getQ_id():0:0 -> onFinish
     5:5:void onFinish():0 -> onFinish
     6:6:void onFinish():0:0 -> onFinish
+    1:1:long com.example.bug_venture_app.Debug_question.access$002(com.example.bug_venture_app.Debug_question,long):0:0 -> onTick
+    1:1:void onTick(long):0 -> onTick
+    2:2:void onTick(long):0:0 -> onTick
+com.example.bug_venture_app.Debug_question$2 -> com.example.bug_venture_app.Debug_question$b:
+    com.example.bug_venture_app.Debug_question this$0 -> b
+    1:1:java.lang.String com.example.bug_venture_app.QuizQuestion.getAnswer():0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+    2:2:void onClick(android.view.View):0:0 -> onClick
+    3:3:int com.example.bug_venture_app.QidStoreDebug.getQ_id():0:0 -> onClick
+    3:3:void onClick(android.view.View):0 -> onClick
+    4:4:void onClick(android.view.View):0:0 -> onClick
+    5:5:int com.example.bug_venture_app.QidStoreDebug.getQ_id():0:0 -> onClick
+    5:5:void onClick(android.view.View):0 -> onClick
+    6:6:void onClick(android.view.View):0:0 -> onClick
 com.example.bug_venture_app.Final_Activity -> com.example.bug_venture_app.Final_Activity:
     android.widget.TextView unique_generated -> q
     android.widget.TextView email -> p
@@ -13583,16 +13585,17 @@ com.example.bug_venture_app.Main3Activity$1$1 -> com.example.bug_venture_app.Mai
 com.example.bug_venture_app.Main4Activity -> com.example.bug_venture_app.Main4Activity:
     com.example.bug_venture_app.Question_Helper question_helper -> q
     java.util.List list -> v
-    java.util.List correct_sequence -> z
-    long total_time -> B
+    java.util.List correct_sequence1 -> z
     java.util.List abv_opt_ques_list -> y
     android.widget.Button play -> p
     java.util.List list_sit -> x
+    int score -> D
     java.util.List list_op_sit -> w
-    int score -> C
+    long total_time -> C
     java.lang.String TAG -> u
     com.example.bug_venture_app.Ques_Sit_Helper ques_sit_helper -> s
-    java.util.List player_sequence -> A
+    java.util.List player_sequence -> B
+    java.util.List correct_sequence2 -> A
     com.example.bug_venture_app.Sit_Opt_Helper sit_opt_helper -> r
     com.example.bug_venture_app.disp_ques_sit_opt_helper help -> t
     1:1:void init_sequence():0:0 -> onCreate
@@ -13696,6 +13699,9 @@ com.example.bug_venture_app.MainActivity$1 -> com.example.bug_venture_app.MainAc
     1:1:void com.example.bug_venture_app.MainActivity.go_to_activity2():0:0 -> onFinish
     1:1:void onFinish():0 -> onFinish
 com.example.bug_venture_app.MajorChoice -> com.example.bug_venture_app.MajorChoice:
+    android.widget.TextView army_text -> s
+    java.util.List chose_seq -> u
+    android.widget.TextView det_text -> t
     android.widget.Button back -> q
     android.widget.Button next -> p
     java.lang.String select -> r
@@ -13777,19 +13783,23 @@ com.example.bug_venture_app.Sit_Ques_Disp -> com.example.bug_venture_app.Sit_Que
     4:4:void onCreate(android.os.Bundle):0:0 -> onCreate
 com.example.bug_venture_app.Sit_Ques_Disp$1 -> com.example.bug_venture_app.Sit_Ques_Disp$a:
     com.example.bug_venture_app.Sit_Ques_Disp this$0 -> b
+    1:1:int com.example.bug_venture_app.QidStoreDebug.getQ_id():0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+    2:2:void onClick(android.view.View):0:0 -> onClick
 com.example.bug_venture_app.Situation_Ques -> com.example.bug_venture_app.Situation_Ques:
     com.example.bug_venture_app.SitOpt current_op -> v
     android.widget.TextView textView2 -> s
-    int progress_status_situation -> z
-    com.example.bug_venture_app.sit_abv_opt_ques curr -> w
     android.widget.TextView question -> t
     android.widget.Button yes -> q
     android.widget.Button submit -> p
-    java.lang.String TAG -> A
+    long mTimeLeftInMillis_situ -> A
     android.os.CountDownTimer countDownTimer_Sit -> x
-    android.widget.ProgressBar mProgressBarSituation -> y
     java.lang.String selected -> u
     android.widget.Button no -> r
+    int progress_status_situation -> z
+    com.example.bug_venture_app.sit_abv_opt_ques curr -> w
+    android.widget.ProgressBar mProgressBarSituation -> y
+    java.lang.String TAG -> B
     1:1:int com.example.bug_venture_app.Qid_Sit.getQid_s():0:0 -> onCreate
     1:1:void onCreate(android.os.Bundle):0 -> onCreate
     2:2:void onCreate(android.os.Bundle):0:0 -> onCreate
@@ -13813,10 +13823,14 @@ com.example.bug_venture_app.Situation_Ques -> com.example.bug_venture_app.Situat
     10:10:void onCreate(android.os.Bundle):0 -> onCreate
     11:11:void updateQ():0:0 -> onCreate
     11:11:void onCreate(android.os.Bundle):0 -> onCreate
+    12:12:void onCreate(android.os.Bundle):0:0 -> onCreate
 com.example.bug_venture_app.Situation_Ques$1 -> com.example.bug_venture_app.Situation_Ques$a:
-    com.example.bug_venture_app.Situation_Ques this$0 -> b
-com.example.bug_venture_app.Situation_Ques$2 -> com.example.bug_venture_app.Situation_Ques$b:
     com.example.bug_venture_app.Situation_Ques this$0 -> a
+    1:1:long com.example.bug_venture_app.Situation_Ques.access$002(com.example.bug_venture_app.Situation_Ques,long):0:0 -> onTick
+    1:1:void onTick(long):0 -> onTick
+    2:2:void onTick(long):0:0 -> onTick
+com.example.bug_venture_app.Situation_Ques$2 -> com.example.bug_venture_app.Situation_Ques$b:
+    com.example.bug_venture_app.Situation_Ques this$0 -> b
 com.example.bug_venture_app.Twist -> com.example.bug_venture_app.Twist:
     android.widget.Button nxt -> p
 com.example.bug_venture_app.Twist$1 -> com.example.bug_venture_app.Twist$a:
@@ -13832,13 +13846,9 @@ com.example.bug_venture_app.completed -> com.example.bug_venture_app.completed:
     android.widget.TextView u_code -> q
     android.widget.TextView e_mail -> p
     android.widget.TextView time -> r
-    int score_1 -> s
-    1:1:int com.example.bug_venture_app.score.getTotal():0:0 -> onCreate
+    1:1:void random_code_generator():0:0 -> onCreate
     1:1:void onCreate(android.os.Bundle):0 -> onCreate
     2:2:void onCreate(android.os.Bundle):0:0 -> onCreate
-    3:3:void random_code_generator():0:0 -> onCreate
-    3:3:void onCreate(android.os.Bundle):0 -> onCreate
-    4:4:void onCreate(android.os.Bundle):0:0 -> onCreate
     boolean lambda$random_code_generator$0(int) -> t
 com.example.bug_venture_app.detective_description -> com.example.bug_venture_app.detective_description:
     android.widget.Button back -> q

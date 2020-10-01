@@ -11,7 +11,7 @@
         android:id="@+id/textView6"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="158dp"
         android:text="@string/situation_ques"
         android:textColor="@android:color/white"
         android:textSize="20sp"

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bug_Venture_App</string>
+    <string name="app_name">Bug Venture</string>
     <string name="main_page">This is the main page</string>
     <string name="button1">Go to the login page</string>
     <string name="login">This is the login page</string>
@@ -24,7 +24,7 @@
     <string name="bug_venture">The written bug venture.</string>
     <string name="mfc_l">The MFC String</string>
     <string name="next_button">Next</string>
-    <string name="debugcodeheading">Question 10</string>
+    <string name="debugcodeheading">Question 1/8</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="situation_string_">WHAT WOULD YOU DO?</string>
@@ -42,18 +42,15 @@
     9. At the end of the game you will get a screen having a unique code for all participants and your total time taken throughout the game. Every participant needs to take the screenshot of the page and send us. If someone does not send, he gets disqualified.\n\n
     </string>
     <string name="detective_description">
-        Detective Pradyuman\n\n
-A top class private investigator who has solved very high profile and tough cases who happens to be a friend of Mahesh in their college times.
+        A top class private investigator who has solved very high profile and tough cases for last 8 years.
     </string>
     <string name="army_description">
-        Sergeant Binod Rajput\n\n
-A very responsible army officer who has been serving in the army for the last 8 years and he is also a friend of Pooja in their college times.
+        A very responsible army officer who has been serving in the army for the last 8 years and he is also a friend of Pooja in their college times.
     </string>
-    <string name="back_story">
-        The story is about the Verma family from Mumbai. The are 2 characters from the family, Mahesh Verma (the husband), Pooja Verma (The Wife). The story revolves around Pooja when her daughter got kidnapped. It is October now, 3 months since Rhea, the daughter of Pooja got kidnapped and no one has any sign of her whereabouts and no one has been successful at finding her, until…
-1 day a suspicious package arrives at Verma’s…\n\n
+    <string name="back_story">The story is about the Verma family from Mumbai. There are 2 characters from the family, Mahesh Verma (the husband), Pooja Verma (The Wife). The story revolves around Pooja when her daughter got kidnapped. It is October now, 3 months since Rhea, the daughter of Pooja got kidnapped and no one has any sign of her whereabouts and no one has been successful at finding her,\n\nUntil…1 day a suspicious package arrives at Verma’s…\n\nCHOOSE ANY 1 CHARACTER WHICH YOU WANT TO HELP THE VERMA’S WITH THE INVESTIGATION
+    </string>
 
-CHOOSE ANY 1 CHARACTER WHICH YOU WANT TO HELP THE VERMA’S WITH THE INVESTIGATION
-    </string>
+    <string name="detective_name">Detective\nPradyuman</string>
+    <string name="army_name">Sergeant\nBinod Rajput</string>
 
 </resources>

@@ -2762,6 +2762,8 @@ androidx.core.graphics.TypefaceCompatApi26Impl:
     private static final java.lang.String ABORT_CREATION_METHOD
     private static final int RESOLVE_BY_FONT_TABLE
 androidx.core.view.DragStartHelper$2
+com.example.bug_venture_app.Situation_Ques:
+    private static final long START_TIME_IN_MILLIS_situ
 androidx.arch.core.util.Function
 com.google.firebase.auth.FirebaseAuthWeakPasswordException:
     public final java.lang.String getReason()
@@ -5542,6 +5544,8 @@ com.google.android.gms.common.internal.ClientSettings$Builder:
     public final com.google.android.gms.common.internal.ClientSettings$Builder setViewForPopups(android.view.View)
     public final com.google.android.gms.common.internal.ClientSettings$Builder setSignInOptions(com.google.android.gms.signin.SignInOptions)
     public final com.google.android.gms.common.internal.ClientSettings$Builder enableSignInClientDisconnectFix()
+com.example.bug_venture_app.Debug_question:
+    private static final long START_TIME_IN_MILLIS
 com.google.android.gms.common.api.internal.GoogleServices:
     void <init>(java.lang.String,boolean)
     public static com.google.android.gms.common.api.Status initialize(android.content.Context,java.lang.String,boolean)
@@ -5999,8 +6003,8 @@ com.google.android.gms.internal.firebase_auth.zzu$zza
 com.google.firebase.installations.remote.InstallationResponse:
     public abstract com.google.firebase.installations.remote.InstallationResponse$Builder toBuilder()
 com.google.android.gms.internal.firebase_auth.zzao
-com.google.android.gms.common.api.internal.BaseImplementation$ApiMethodImpl
 com.google.firebase.auth.api.internal.zzcz
+com.google.android.gms.common.api.internal.BaseImplementation$ApiMethodImpl
 com.google.android.gms.actions.SearchIntents
 com.google.android.gms.internal.measurement.zzir:
     final java.util.List zza(java.lang.Object,long)
@@ -9404,6 +9408,8 @@ androidx.core.graphics.TypefaceCompatApi26Impl:
     public java.lang.reflect.Method obtainAbortCreationMethod(java.lang.Class)
     public final boolean addFontFromBuffer(java.lang.Object,java.nio.ByteBuffer,int,int,int)
 com.example.bug_venture_app.Situation_Ques:
+    public static synthetic long access$002(com.example.bug_venture_app.Situation_Ques,long)
+    public static synthetic long access$000(com.example.bug_venture_app.Situation_Ques)
     public void updateQ()
 com.google.firebase.auth.FirebaseAuthWeakPasswordException:
     public final java.lang.String zza
@@ -9599,6 +9605,7 @@ com.google.android.gms.internal.measurement.zzdo:
     public abstract boolean zza()
 com.example.bug_venture_app.completed:
     public void random_code_generator()
+    public int score_1
 androidx.appcompat.widget.AppCompatRadioButton:
     public void <init>(android.content.Context,android.util.AttributeSet,int)
 com.google.android.gms.internal.measurement.zzby
@@ -11720,6 +11727,8 @@ androidx.core.provider.FontsContractCompat$FontInfo:
     public boolean isItalic()
     public int getResultCode()
 com.example.bug_venture_app.Debug_question:
+    public static synthetic long access$002(com.example.bug_venture_app.Debug_question,long)
+    public static synthetic long access$000(com.example.bug_venture_app.Debug_question)
     public void updateQueAndOptions()
 com.google.android.gms.common.api.internal.GoogleServices:
     public static java.lang.String getGoogleAppId()

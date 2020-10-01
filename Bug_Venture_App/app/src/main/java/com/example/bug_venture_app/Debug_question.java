@@ -37,7 +37,7 @@ public class Debug_question extends AppCompatActivity {
     CountDownTimer countDownTimer;
     QuizQuestion current_question;
 
-    private static final long START_TIME_IN_MILLIS = 60500;
+    private static final long START_TIME_IN_MILLIS = 120500;
     private long mTimeLeftInMillis = START_TIME_IN_MILLIS;
 
 
@@ -62,7 +62,7 @@ public class Debug_question extends AppCompatActivity {
         progressBar.setProgress(progress_status);
 
         current_question = Main4Activity.list.get(qidStoreDebug.getQ_id());
-        q_no.setText("Question " + (qidStoreDebug.getQ_id() + 1));
+        q_no.setText("Question " + (qidStoreDebug.getQ_id() + 1 + "/8"));
 
         updateQueAndOptions();
 

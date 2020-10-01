@@ -8,16 +8,15 @@
     tools:context=".Sit_Ques_Disp">
 
 
-
     <ImageView
         android:id="@+id/imageView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:layout_marginEnd="45dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/plot_twist" />
+        app:srcCompat="@drawable/plot_tw" />
 
 
     <ScrollView
@@ -26,7 +25,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="75dp"
         android:fadeScrollbars="false"
-        android:scrollbarSize="10dp"
+        android:scrollbarSize="5dp"
         android:scrollbarThumbVertical="@drawable/custom_scroll_bar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,7 +51,7 @@
         android:id="@+id/button9"
         android:layout_width="135dp"
         android:layout_height="52dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/situation_next_button"
         android:text="@string/next_button"
         android:textColor="#ffffff"

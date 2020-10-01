@@ -4,8 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/det_back"
+    android:background="@drawable/login_back"
     tools:context=".detective_description">
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/detective_title" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="137dp"
+        android:layout_height="444dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27"
+        app:srcCompat="@drawable/dete" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:text="@string/detective_description"
+        android:layout_width="330dp"
+        android:layout_height="116dp"
+        android:justificationMode="inter_word"
+        android:paddingHorizontal="10dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView30" />
 
     <Button
         android:id="@+id/button13"
@@ -27,18 +61,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="391dp"
-        android:layout_height="96dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="517dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="11dp"
-        android:text="@string/detective_description"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/button14"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
