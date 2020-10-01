@@ -110,7 +110,7 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         //25
         arraylist.add(new QuizQuestionSit("Binod decides to go to the Rhea’s school to investigate and gain more knowledge about her. After talking to the school principal and the principal claims there is no kid named Rhea Verma, and Binod decides to show Rhea’s pic to principal but she gives him the same response. Disappointed, Binod makes his way out. On his way out, a school teacher who overheard his conversation tells him that the kid in the pic isn’t Rhea verma but she is Rhea Gupta who is actually present in her class today, which leaves Binod in a confusion."));
         //26
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Seeing that the police is of no great help, Binod help Pooja plot the murder. Binod decide to procure a gun to kill the person mentioned in the parcel. Guns are traceable through bullets and unregistered weapons can lead one to prison."));
         //27
         arraylist.add(new QuizQuestionSit("Binod decide to procure a gun to kill the person mentioned in the parcel. Guns are traceable through bullets and unregistered weapons can lead one to prison."));
         //28
@@ -200,9 +200,9 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         //52
         arraylist.add(new QuizQuestionSit("Binod meet the kid after school and she introduces herself as Rhea Gupta. Binod show the photo Binod got in the parcel to the kid and the kid suddenly gets very scared and starts crying."));
         //53
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Binod reaches Target’s place, and abduct her while she was entering her building. Binod takes her to the terrace and shoot her. And leave the body back at the terrace. While leaving the building Binod notices a girl and a man entering target’s house. Looking closely at the girl’s face recognises her as Rhea. After doing a research on the girl and the man, Binod finds out that The girl is Rhea Gupta not Rhea Verma who was with her father at the time of shooting and the target was none other than her mother Ankita Gupta."));
         //54
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Binod reaches Target’s place, and abduct her while she was entering her building. Binod takes her to the terrace and shoot her. And leave the body back at the terrace. While leaving the building Binod notices a girl and a man entering target’s house. Looking closely at the girl’s face recognises her as Rhea. After doing a research on the girl and the man, Binod finds out that The girl is Rhea Gupta not Rhea Verma who was with her father at the time of shooting and the target was none other than her mother Ankita Gupta."));
         //55
         arraylist.add(new QuizQuestionSit("Binod reaches Target’s place, and abduct her while she was entering her building. Binod takes her to the terrace and shoot her. And leave the body back at the terrace. While leaving the building Binod notices a girl and a man entering target’s house. Looking closely at the girl’s face recognises her as Rhea. After doing a research on the girl and the man, Binod finds out that The girl is Rhea Gupta not Rhea Verma who was with her father at the time of shooting and the target was none other than her mother Ankita Gupta."));
         //56
@@ -326,13 +326,13 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         //106
         arraylist.add(new QuizQuestionSit("While Binod are questioning the kid, Binod sees a lady furiously rushing towards them who was there to pick Rhea up from school. She claims to be Ankita, the mother of Rhea."));
         //107
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Upon reaching Pooja, Binod tells her that Rhea is not the child of Pooja but it is of Ankita and Pooja manipulated Binod to kill an innocent woman and kidnap Rhea. Pooja claims that Rhea is her child and Ankita was illegally keeping Rhea with her. After this, Binod concludes that Pooja is mentally unstable."));
         //108
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("After confronting Rhea, Binod comes to know the truth. Upon reaching Pooja, Binod tells her that Rhea is not the child of Pooja but it is of Ankita and Pooja manipulated Binod to kill an innocent woman and kidnap Rhea. Pooja claims that Rhea is her child and Ankita was illegally keeping Rhea with her. After this, Binod concludes that Pooja is mentally unstable."));
         //109
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Upon reaching Pooja, Binod tells her that Rhea is not the child of Pooja but it is of Ankita and Pooja manipulated Binod to kill an innocent woman and kidnap Rhea. Pooja claims that Rhea is her child and Ankita was illegally keeping Rhea with her. After this, Binod concludes that Pooja is mentally unstable."));
         //110
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("After confronting Rhea, Binod comes to know the truth. Upon reaching Pooja, Binod tells her that Rhea is not the child of Pooja but it is of Ankita and Pooja manipulated Binod to kill an innocent woman and kidnap Rhea. Pooja claims that Rhea is her child and Ankita was illegally keeping Rhea with her. After this, Binod concludes that Pooja is mentally unstable."));
         //111
         arraylist.add(new QuizQuestionSit("Upon reaching Pooja, Binod tells her that Rhea is not the child of Pooja but it is of Ankita and Pooja manipulated Binod to kill an innocent woman and kidnap Rhea. Pooja claims that Rhea is her child and Ankita was illegally keeping Rhea with her. After this, Binod concludes that Pooja is mentally unstable and she was the kidnapper who sent fake parcel to herself and she plays safe by not coming to the crime scene.."));
         //112
@@ -542,21 +542,21 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
 //214
         arraylist.add(new QuizQuestionSit("Binod recalls that Ankita was the woman whose name was on the envelope in the parcel and gets to know she was an old friend of pooja. Binod confronts pooja about today’s happenings and how everything points to the fact that she is lying and is not the real mother of Rhea. Seeing that there is no escape now, Pooja proceeds to kill Binod."));
 //215
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Binod goes to police and pleads guilty for his crime and gets Pooja arrested. Both gets jailed for 20 years."));
 //216
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Binod lives the rest of his life in guilt of killing and innocent woman and a mother to a small child"));
 //217
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Binod goes to police and pleads guilty for his crime and gets Pooja arrested. Both gets jailed for 20 years."));
 //218
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Binod lives the rest of his life in guilt of killing and innocent woman and a mother to a small child"));
 //219
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Binod goes to police and pleads guilty for his crime and gets Pooja arrested. Both gets jailed for 20 years."));
 //220
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Binod lives the rest of his life in guilt of killing and innocent woman and a mother to a small child"));
 //221
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Binod goes to police and pleads guilty for his crime and gets Pooja arrested. Both gets jailed for 20 years."));
 //222
-        arraylist.add(new QuizQuestionSit("Question"));
+        arraylist.add(new QuizQuestionSit("Binod lives the rest of his life in guilt of killing and innocent woman and a mother to a small child"));
 //223
         arraylist.add(new QuizQuestionSit("Binod goes to police and pleads guilty for his crime and gets Pooja arrested. Both gets jailed for 20 years."));
 //224
@@ -622,8 +622,6 @@ public class Ques_Sit_Helper extends SQLiteOpenHelper{
         //254
         arraylist.add(new QuizQuestionSit("Binod lives the rest of his life in guilt of killing and innocent woman and a mother to a small child."));
         //255
-        arraylist.add(new QuizQuestionSit("Question"));
-        //256
         arraylist.add(new QuizQuestionSit("Question"));
 
         this.addAllQuestions(arraylist);

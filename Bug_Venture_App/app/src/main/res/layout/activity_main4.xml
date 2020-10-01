@@ -27,4 +27,25 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/instructions" />
 
+    <ScrollView
+        android:layout_width="416dp"
+        android:layout_height="637dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="400dp"
+            android:layout_height="630dp"
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:text="@string/instruction"
+            android:textColor="@color/white"/>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

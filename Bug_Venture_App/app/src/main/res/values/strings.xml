@@ -28,5 +28,32 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="situation_string_">WHAT WOULD YOU DO?</string>
+    <string name="instruction">
+        Welcome to Bug venture.\n
+        Follow these instructions throughout the game.\n\n
+    1. The game will contain 2 types of questions. First would be a brain-teaser question which would be based on pure logic. The second type would be an ongoing story which would be called as the plot twist level.\n\n
+    2. The plot twist level would be a question based on a thriller story where you will be choosing amongst 2 characters. Both characters will be having a different story and scenario. You will be given 2 choices as the character in the story. Based on the choice you make, you’ll be getting the next plot twist level. So every choice and decision will alter your further story. So make sure to read the story properly.\n\n
+    3. You will be getting 1st question as the brain-teaser question and next quest as the plot twist. This will continue and both levels will come alternately until 8 questions of each level are completed.\n\n
+    4. Time limit for brain teasers would be 2 minutes. And for plot twist you have infinite time to read the story at every stage but just 30s to make your choice.\n\n
+    5. At any point in the game you cannot go back to the previous level. Once an option is chosen you cannot change it.\n\n
+    6. If your time runs out, your game gets over and you will be automatically logged out.\n\n
+    7. The participant who answers the most correct questions in the least time will win.\n\n
+    8. Results will be declared later on.\n\n
+    9. At the end of the game you will get a screen having a unique code for all participants and your total time taken throughout the game. Every participant needs to take the screenshot of the page and send us. If someone does not send, he gets disqualified.\n\n
+    </string>
+    <string name="detective_description">
+        Detective Pradyuman\n\n
+A top class private investigator who has solved very high profile and tough cases who happens to be a friend of Mahesh in their college times.
+    </string>
+    <string name="army_description">
+        Sergeant Binod Rajput\n\n
+A very responsible army officer who has been serving in the army for the last 8 years and he is also a friend of Pooja in their college times.
+    </string>
+    <string name="back_story">
+        The story is about the Verma family from Mumbai. The are 2 characters from the family, Mahesh Verma (the husband), Pooja Verma (The Wife). The story revolves around Pooja when her daughter got kidnapped. It is October now, 3 months since Rhea, the daughter of Pooja got kidnapped and no one has any sign of her whereabouts and no one has been successful at finding her, until…
+1 day a suspicious package arrives at Verma’s…\n\n
+
+CHOOSE ANY 1 CHARACTER WHICH YOU WANT TO HELP THE VERMA’S WITH THE INVESTIGATION
+    </string>
 
 </resources>

@@ -1005,6 +1005,7 @@ id textView12
 id textView13
 id textView14
 id textView15
+id textView16
 id textView17
 id textView2
 id textView3
@@ -1159,6 +1160,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string instruction
 string login
 string login_button
 string logout

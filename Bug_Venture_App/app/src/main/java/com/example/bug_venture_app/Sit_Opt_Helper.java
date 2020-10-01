@@ -12,7 +12,7 @@ import java.util.List;
 
 public class Sit_Opt_Helper extends SQLiteOpenHelper{
     private Context context;
-    private static final String DB_NAME = "OP_ST6.db";
+    private static final String DB_NAME = "OP_ST9.db";
     private static final int DB_VERSION = 3;
     private static final String TABLE_NAME = "OPTION_SIT";
     private static final String UID = "_UID";
@@ -50,9 +50,9 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
 //4
         arrayList.add(new SitOpt("Take the Detective's \nsuggestion", "Commit the \ncrime for real"));
 //5
-        arrayList.add(new SitOpt("Believe Mother", "Believe Father and neighbors"));
+        arrayList.add(new SitOpt("Believe Mother", "Believe Father \nand neighbors"));
 //6
-        arrayList.add(new SitOpt("Use lethal injection", "use a gun"));
+        arrayList.add(new SitOpt("Use lethal \ninjection", "use a gun"));
         //7
         arrayList.add(new SitOpt("Take Detective's\nsuggestion", "commit the\ncrime for\nreal"));
         //8
@@ -62,13 +62,13 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //10
         arrayList.add(new SitOpt("Give all \nthe records", "Refuse to \ngive records"));
         //11
-        arrayList.add(new SitOpt("continue investigating", "stop investigating and choose murder"));
+        arrayList.add(new SitOpt("continue \ninvestigating", "stop investigating \nand choose murder"));
         //12
-        arrayList.add(new SitOpt("investigate rhea's whereabouts", "Help Pooja, Commit Crime"));
+        arrayList.add(new SitOpt("investigate rhea's \nwhereabouts", "Help Pooja, \nCommit Crime"));
         //13
-        arrayList.add(new SitOpt("Complete mission alone", "Take Pooja Along"));
+        arrayList.add(new SitOpt("Complete mission \nalone", "Take Pooja \nAlong"));
         //14
-        arrayList.add(new SitOpt("Complete mission alone", "Take Pooja Along"));
+        arrayList.add(new SitOpt("Complete mission \nalone", "Take Pooja \nAlong"));
         //15
         arrayList.add(new SitOpt("Give all \nthe records", "Refuse to \ngive records"));
         //16
@@ -86,21 +86,21 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //22
         arrayList.add(new SitOpt("Open the\nkidnapper's\nparcel", "Ignore parcel\nand arrange\nfuneral"));
         //23
-        arrayList.add(new SitOpt("Ask for Kid's Records", "Wait for kid after school"));
+        arrayList.add(new SitOpt("Ask for Kid's \nRecords", "Wait for kid \nafter school"));
         //24
-        arrayList.add(new SitOpt("choose unregistered gun", "choose army gun"));
+        arrayList.add(new SitOpt("choose unregistered \ngun", "choose army \ngun"));
         //25
-        arrayList.add(new SitOpt("Ask for Kid's Records", "Wait for kid after school"));
+        arrayList.add(new SitOpt("Ask for Kid's \nRecords", "Wait for kid \nafter school"));
         //26
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("choose unregistered \ngun", "choose army \ngun"));
         //27
-        arrayList.add(new SitOpt("choose unregistered gun", "choose army gun"));
+        arrayList.add(new SitOpt("choose unregistered \ngun", "choose army \ngun"));
         //28
-        arrayList.add(new SitOpt("choose unregistered gun", "choose army gun"));
+        arrayList.add(new SitOpt("choose unregistered \ngun", "choose army \ngun"));
         //29
-        arrayList.add(new SitOpt("choose unregistered gun", "choose army gun"));
+        arrayList.add(new SitOpt("choose unregistered \ngun", "choose army \ngun"));
         //30
-        arrayList.add(new SitOpt("choose unregistered gun", "choose army gun"));
+        arrayList.add(new SitOpt("choose unregistered \ngun", "choose army \ngun"));
         //31
         arrayList.add(new SitOpt("Open the\nkidnapper's\nparcel", "Ignore parcel\nand arrange\nfuneral"));
         //32
@@ -134,7 +134,7 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //46
         arrayList.add(new SitOpt("Commit final\ncrime", "Do not\ncommit crime"));
         //47
-        arrayList.add(new SitOpt("Confront Pooja", "Try to\ntalk to\nkid after\nschool next\nday"));
+        arrayList.add(new SitOpt("Confront \nPooja", "Try to talk to\nkid after\nschool next day"));
         //48
         arrayList.add(new SitOpt("Leave Kid", "Keep Questioning\nKid"));
         //49
@@ -142,13 +142,13 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //50
         arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //51
-        arrayList.add(new SitOpt("Confront Pooja", "Try to\ntalk to\nkid after\nschool next\nday"));
+        arrayList.add(new SitOpt("Confront \nPooja", "Try to talk to\nkid after\nschool next day"));
         //52
         arrayList.add(new SitOpt("Leave Kid", "Keep Questioning\nKid"));
         //53
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //54
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //55
         arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //56
@@ -164,7 +164,7 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //61
         arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //62
-        // ??
+        arrayList.add(new SitOpt("Confront Pooja\nabout Rhea", "Confront Rhea"));
         //63
         arrayList.add(new SitOpt("Save\nMr.Verma", "Save Rhea"));
         //64
@@ -230,7 +230,7 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //94
         arrayList.add(new SitOpt("Kill\nMr.Verma", "Kill Rhea"));
         //95
-        arrayList.add(new SitOpt("call psychiatric\nhospital to\ntake Pooja", "Try to\nexplain Pooja\nthat Rhea\nis not\nher daughter"));
+        arrayList.add(new SitOpt("call psychiatric\nhospital to\ntake Pooja", "Try to explain \nPooja that Rhea is \nnot her daughter"));
         //96
         arrayList.add(new SitOpt("Confront Pooja", "Report Pooja\nto the\npolice"));
         //97
@@ -254,13 +254,13 @@ public class Sit_Opt_Helper extends SQLiteOpenHelper{
         //106
         arrayList.add(new SitOpt("Binod confronts\nAnkita about\nPooja", "Binod Panics\nand leave"));
         //107
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Surrender yourself \nto Police", "Leave town \nand run away."));
         //108
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Surrender yourself \nto Police", "Leave town \nand run away."));
         //109
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Surrender yourself \nto Police", "Leave town \nand run away."));
         //110
-        arrayList.add(new SitOpt("option1", "option2"));
+        arrayList.add(new SitOpt("Surrender yourself \nto Police", "Leave town \nand run away."));
         //111
         arrayList.add(new SitOpt("Surrender yourself\nto police", "Leave town\nand run\naway"));
         //112
