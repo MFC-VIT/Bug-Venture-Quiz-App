@@ -7,38 +7,6 @@
     android:background="@drawable/login_back"
     tools:context=".army_description">
 
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="73dp"
-        android:layout_height="71dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="32dp"
-        android:background="@drawable/orang_back"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button16"
-        android:layout_width="73dp"
-        android:layout_height="71dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="36dp"
-        android:background="@drawable/orange_but"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:text="@string/army_description"
-        app:layout_constraintTop_toBottomOf="@+id/imageView31"
-        android:layout_width="330dp"
-        android:layout_height="116dp"
-        android:justificationMode="inter_word"
-        android:paddingHorizontal="10dp"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView26"
@@ -51,14 +19,63 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/soldier_title" />
 
-    <ImageView
-        android:id="@+id/imageView31"
-        android:layout_width="137dp"
-        android:layout_height="444dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView26"
-        app:srcCompat="@drawable/arm" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imageView26"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="5dp"
+        android:scrollbarThumbVertical="@drawable/custom_scroll_bar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="137dp"
+                android:layout_height="444dp"
+                app:srcCompat="@drawable/arm"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="330dp"
+                android:layout_height="116dp"
+                android:justificationMode="inter_word"
+                android:paddingHorizontal="10dp"
+                android:text="@string/army_description"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_below="@id/imageView31"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="73dp"
+                android:layout_height="71dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginBottom="28dp"
+                android:background="@drawable/orang_back"
+                android:layout_below="@id/textView15"/>
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="73dp"
+                android:layout_height="71dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="28dp"
+                android:background="@drawable/orange_but"
+                android:layout_below="@id/textView15"
+                android:layout_alignParentRight="true"/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

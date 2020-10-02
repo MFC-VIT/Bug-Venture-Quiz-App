@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/imageView27"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,48 +18,64 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/detective_title" />
 
-    <ImageView
-        android:id="@+id/imageView30"
-        android:layout_width="137dp"
-        android:layout_height="444dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView27"
-        app:srcCompat="@drawable/dete" />
 
-    <TextView
-        android:id="@+id/textView17"
-        android:text="@string/detective_description"
-        android:layout_width="330dp"
-        android:layout_height="116dp"
-        android:justificationMode="inter_word"
-        android:paddingHorizontal="10dp"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView30" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imageView27"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="5dp"
+        android:scrollbarThumbVertical="@drawable/custom_scroll_bar">
 
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="73dp"
-        android:layout_height="71dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="32dp"
-        android:background="@drawable/orang_back"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="73dp"
-        android:layout_height="71dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="36dp"
-        android:background="@drawable/orange_but"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="137dp"
+                android:layout_height="444dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/dete"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:text="@string/detective_description"
+                android:layout_width="match_parent"
+                android:layout_height="116dp"
+                android:justificationMode="inter_word"
+                android:paddingHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="40dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_below="@id/imageView30"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="73dp"
+                android:layout_height="71dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/orang_back"
+                android:layout_below="@id/textView17"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="73dp"
+                android:layout_height="71dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginBottom="36dp"
+                android:background="@drawable/orange_but"
+                android:layout_below="@id/textView17"
+                android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
