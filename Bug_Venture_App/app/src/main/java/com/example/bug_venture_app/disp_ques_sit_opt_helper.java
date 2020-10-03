@@ -11,7 +11,7 @@ import java.util.List;
 
 public class disp_ques_sit_opt_helper extends SQLiteOpenHelper {
     private Context context;
-    private static final String DB_NAME = "SQzm2.db";
+    private static final String DB_NAME = "SQzm231.db";
 
     private static final int DB_VERSION = 3;
     private static final String TABLE_NAME = "TQ";

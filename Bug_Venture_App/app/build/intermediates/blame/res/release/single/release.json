@@ -24,16 +24,16 @@
         "source": "E:\\Club1\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\time_up_back.png"
     },
     {
-        "merged": "E:\\Club1\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\release\\drawable_bug_venture.png.flat",
-        "source": "E:\\Club1\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\bug_venture.png"
+        "merged": "E:\\Club1\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\release\\drawable_login_next_button.png.flat",
+        "source": "E:\\Club1\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\login_next_button.png"
     },
     {
         "merged": "E:\\Club1\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main4.xml.flat",
         "source": "E:\\Club1\\Bug_Venture_App\\app\\src\\main\\res\\layout\\activity_main4.xml"
     },
     {
-        "merged": "E:\\Club1\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\release\\drawable_login_next_button.png.flat",
-        "source": "E:\\Club1\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\login_next_button.png"
+        "merged": "E:\\Club1\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\release\\drawable_bug_venture.png.flat",
+        "source": "E:\\Club1\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\bug_venture.png"
     },
     {
         "merged": "E:\\Club1\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\release\\drawable_debug_option_background.png.flat",
@@ -156,12 +156,12 @@
         "source": "E:\\Club1\\Bug_Venture_App\\app\\src\\main\\res\\mipmap-xhdpi\\bug_venture_icon_background.png"
     },
     {
-        "merged": "E:\\Club1\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_bug_venture_icon_background.png.flat",
-        "source": "E:\\Club1\\Bug_Venture_App\\app\\src\\main\\res\\mipmap-xxhdpi\\bug_venture_icon_background.png"
-    },
-    {
         "merged": "E:\\Club1\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\release\\drawable_custom_progress.xml.flat",
         "source": "E:\\Club1\\Bug_Venture_App\\app\\src\\main\\res\\drawable\\custom_progress.xml"
+    },
+    {
+        "merged": "E:\\Club1\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_bug_venture_icon_background.png.flat",
+        "source": "E:\\Club1\\Bug_Venture_App\\app\\src\\main\\res\\mipmap-xxhdpi\\bug_venture_icon_background.png"
     },
     {
         "merged": "E:\\Club1\\Bug_Venture_App\\app\\build\\intermediates\\res\\merged\\release\\drawable_total_time.png.flat",

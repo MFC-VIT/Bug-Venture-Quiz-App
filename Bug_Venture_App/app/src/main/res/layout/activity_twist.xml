@@ -7,41 +7,62 @@
     android:background="@drawable/login_back"
     tools:context=".Twist">
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="352dp"
-        android:layout_height="465dp"
-        android:layout_marginTop="49dp"
-        android:text="@string/back_story"
-        android:justificationMode="inter_word"
-        android:padding="10dp"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="73dp"
-        android:layout_height="71dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="52dp"
-        android:layout_marginBottom="12dp"
-        android:background="@drawable/orange_but"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
-
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="95dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/plot_tw" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imageView19"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="5dp"
+        android:layout_marginTop="30dp"
+        android:scrollbarThumbVertical="@drawable/custom_scroll_bar"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:padding="15dp"
+                android:text="@string/back_story"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="73dp"
+                android:layout_height="71dp"
+                android:layout_below="@id/imageView13"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/orange_but" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="60dp"
+                android:layout_below="@id/button7">
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

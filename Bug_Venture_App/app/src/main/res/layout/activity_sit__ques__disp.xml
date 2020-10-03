@@ -21,29 +21,41 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:fadeScrollbars="false"
         android:scrollbarSize="5dp"
         android:scrollbarThumbVertical="@drawable/custom_scroll_bar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView25">
+        app:layout_constraintTop_toBottomOf="@+id/imageView25"
+        android:layout_margin="25dp">
 
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="345dp"
-            android:layout_height="213dp"
-            android:justificationMode="inter_word"
-            android:padding="10dp"
-            android:paddingRight="15dp"
-            android:text="TextView"
-            android:textColor="@android:color/white"
-            android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:justificationMode="inter_word"
+                android:padding="10dp"
+                android:paddingRight="15dp"
+                android:text="@string/debug_ques"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="60dp"
+                android:layout_below="@id/textView14">
+
+            </LinearLayout>
+
+        </RelativeLayout>
 
     </ScrollView>
 

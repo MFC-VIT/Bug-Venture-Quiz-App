@@ -75,8 +75,8 @@ public class Main3Activity extends AppCompatActivity {
                             else{
                                 Intent intent = new Intent(Main3Activity.this, Main4Activity.class);
                                 startActivity(intent);
-                                //final FirebaseUser currentUser = authorization.getCurrentUser();
-                                //currentUser.delete();
+                                final FirebaseUser currentUser = authorization.getCurrentUser();
+                                currentUser.delete();
                             }
                         }
                     });
